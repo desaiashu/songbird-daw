@@ -25,111 +25,381 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		00310B3113958CB6EC2FEFDF /* chorus.cpp */ = {isa = PBXBuildFile; fileRef = 0C2BD5ADE0545C09C5E0831F; };
+		014C2399B63EADF47033A550 /* CH A 808 Tape-LmXkcjVl.wav */ = {isa = PBXBuildFile; fileRef = B73DAEE3868473FA62AF6DFF; };
+		01D4DFDE428B40CB0DEECAE3 /* house.cpp */ = {isa = PBXBuildFile; fileRef = 70C8E6496D6DC7861E726469; };
+		020E68DDC02902C1922B26A0 /* MidiEventList.cpp */ = {isa = PBXBuildFile; fileRef = F3C0833721B421E855FA4170; };
+		02E75564BB03476BB0ECF2F3 /* orchestral_rack.cpp */ = {isa = PBXBuildFile; fileRef = A47C4719768086005E1E44EE; };
+		0488E6F6342B33A249A8E75D /* Cym A 808 Tape Decay C 01-xfbnl7fI.wav */ = {isa = PBXBuildFile; fileRef = BB026DF5DBD3E7881D5E0121; };
+		04F516ADF4E12EC3580785E1 /* groove.cpp */ = {isa = PBXBuildFile; fileRef = F41E7D2B6CB3E73D0714CFEE; };
+		090FC1CECE6776A0BAFA1EF2 /* buttons.cpp */ = {isa = PBXBuildFile; fileRef = 72743B5240954438B97FB283; };
 		0A38425D019F157446270FEB /* include_juce_gui_extra.mm */ = {isa = PBXBuildFile; fileRef = 8AB4CAB08284F8005C592B9F; };
+		0B9D0A137057ADDD2FA60840 /* composer.cpp */ = {isa = PBXBuildFile; fileRef = 2B8EBD7AA4BD2B81ECBA87BF; };
 		0F372464E303F7FDBEDBE24E /* include_juce_audio_utils.mm */ = {isa = PBXBuildFile; fileRef = FBD643A0DB3AE113AC2E95A6; };
 		130C192C355537906383622B /* CoreAudio.framework */ = {isa = PBXBuildFile; fileRef = C452487FDB27E064933AD78C; };
+		1405E65EA4A77FA5634F74B3 /* MidiFile.cpp */ = {isa = PBXBuildFile; fileRef = 5DDC6583310BF3F135DCE491; };
 		14154F5A27BFF9EC62C6845F /* Cocoa.framework */ = {isa = PBXBuildFile; fileRef = 69B5EFD21A2A0867CB5EEA29; };
+		1512FD52E8F2EB2AD42F6DFB /* midi_inst.cpp */ = {isa = PBXBuildFile; fileRef = 64C92D8924C6657AB0E68BCD; };
+		1732094C9D662E521A6BC178 /* chord.cpp */ = {isa = PBXBuildFile; fileRef = 5D29B55B000FFB30927627E2; };
+		1A1A23E255415FF6D4A0BC00 /* arrangement.cpp */ = {isa = PBXBuildFile; fileRef = E7AE9A301A71898AC28C3534; };
 		1AB64557A23A087748E08DDE /* include_juce_audio_plugin_client_AU_2.mm */ = {isa = PBXBuildFile; fileRef = BF316E5C84362901C7744B71; };
 		1B84CD3B01AB038BEB81A579 /* IOKit.framework */ = {isa = PBXBuildFile; fileRef = 79769A6B9C95B865A93E303D; };
+		1D7457AC7119B9A19166FF9F /* counterpoint.cpp */ = {isa = PBXBuildFile; fileRef = D7602B7EAC1EF3AA9863BC07; };
+		20B1B1A35830B0192665C569 /* program.cpp */ = {isa = PBXBuildFile; fileRef = 6DF776D564AC4AA7688CC8B8; };
+		216B32F3E21EA105D8B191AF /* model_samples.cpp */ = {isa = PBXBuildFile; fileRef = A1D760459743FBE4B7A49225; };
+		21FFAF8BB5765CE2EC1EEE77 /* basic_composer.cpp */ = {isa = PBXBuildFile; fileRef = F4BA2FB12939F85C3110DC20; };
+		238168310626BB013DB794D7 /* drum_machine.cpp */ = {isa = PBXBuildFile; fileRef = EFA3FA911834284CCBFA4154; };
+		23D91A9EB5B45483C8992B49 /* sampler.cpp */ = {isa = PBXBuildFile; fileRef = 47FFD83670BF81B8893C310D; };
+		261FC3FD049F82044A2F0F5B /* midi_note.cpp */ = {isa = PBXBuildFile; fileRef = 2C91DC144606B28C3448ADE0; };
 		26848351405424D21950F5B3 /* Security.framework */ = {isa = PBXBuildFile; fileRef = 8B2611DD787531502DFCB24A; };
 		26870B967DCA84463CEC1FEC /* Metal.framework */ = {isa = PBXBuildFile; fileRef = 51F3FD1ACD620617588CACAD; settings = { ATTRIBUTES = (Weak, ); }; };
+		297128FF907362D272F3136D /* bass.cpp */ = {isa = PBXBuildFile; fileRef = A425BA203FDBCB7163D9E551; };
+		2D39BD62AFCE2E948B1B9843 /* nord_drum.cpp */ = {isa = PBXBuildFile; fileRef = 2EB37CACC72A388C1BB3077F; };
+		351A8441FB327B6F71B015CE /* outro.cpp */ = {isa = PBXBuildFile; fileRef = E1FA2681D63B47BE21207D1A; };
+		35B82DBC905506B76BEEB292 /* SD B 808 Tape Tone C 06-nOcwZapV.wav */ = {isa = PBXBuildFile; fileRef = 13F3DBD7948FC3C4014ED94A; };
+		3695E5478E4AA820F3801976 /* techno.cpp */ = {isa = PBXBuildFile; fileRef = 05C3CA3E8AF2FD5F3C78906B; };
+		3745B4EB978E4C9BB72468EC /* Tom Low A 808 03-K5WLayV-.wav */ = {isa = PBXBuildFile; fileRef = 96B86D361635BA1985CA6ED1; };
+		388209C6C132D60FA686C2AA /* classical.cpp */ = {isa = PBXBuildFile; fileRef = 9F2754BAB24C7EC4749CBFAE; };
 		3950B428D9D7A532F98145D4 /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = 5EBB8ECF664EBFAB9899BD7A; };
 		3CA718504BB3FF8A49CECF10 /* juce_VST3ManifestHelper.mm */ = {isa = PBXBuildFile; fileRef = FB708BBA88F668AA3EFAB248; settings = { COMPILER_FLAGS = "-std=c++17 -fobjc-arc -w -DJUCE_SKIP_PRECOMPILED_HEADER"; }; };
 		3E85C6FF69ED5D93EECAF3BD /* VST3 Manifest Helper */ = {isa = PBXBuildFile; fileRef = FC0A9E19506E8D83ABDC3944; };
+		401091122AAA9B752EEECF16 /* subharmonicon.cpp */ = {isa = PBXBuildFile; fileRef = 445A69812C47FA9E5B382A0E; };
+		43A8F1513FF70B7A7A239C25 /* song.cpp */ = {isa = PBXBuildFile; fileRef = 00B227D3F5E784D680C8359A; };
+		459B4DEF7DBC48089B5050FF /* rythym.cpp */ = {isa = PBXBuildFile; fileRef = D289E96F386B67005C65BB7F; };
 		460D9FE54818061F981EB1FA /* CoreMIDI.framework */ = {isa = PBXBuildFile; fileRef = 8177AD300371570E8DEE2D1A; };
+		48AC36BEF2295C8ACA1E54C7 /* motif.cpp */ = {isa = PBXBuildFile; fileRef = 3C80411D1A61B7526FDB29C4; };
 		48B49A9C1083B41313D47FBA /* AudioUnit.framework */ = {isa = PBXBuildFile; fileRef = 5F853931028D9EE361D6CF7C; };
+		49DDBC998CD3C21775D3DD5D /* Tom Hi A 808 08-HO-IszNz.wav */ = {isa = PBXBuildFile; fileRef = 0A87D0FD5065094835A6A5B3; };
 		4AC932DEB9FE7E4DD8CAFE3B /* include_juce_audio_processors_ara.cpp */ = {isa = PBXBuildFile; fileRef = 8F16200AE68E5C00BC74EF4B; };
+		4D47D3BF36954165E8FBC678 /* bird_composer.cpp */ = {isa = PBXBuildFile; fileRef = FDD93672BBB14806C797DE3F; };
+		51409A4A512F4970A2F8FC49 /* ambiance.cpp */ = {isa = PBXBuildFile; fileRef = 212500B5CB1A249613782572; };
+		51DE446C332BB1082C3C8B35 /* harmony.cpp */ = {isa = PBXBuildFile; fileRef = 8456B7749E730607268B8D62; };
+		522E7880AE7CCC7F079CFBDA /* file_composer.cpp */ = {isa = PBXBuildFile; fileRef = 474F36F9546C6F37A67B910B; };
+		54C04ACA1910F926ACAFE856 /* chord_sequencer.cpp */ = {isa = PBXBuildFile; fileRef = BFFF911B4D1A67250A538214; };
+		55253D049D9C2C342D21B852 /* index.html */ = {isa = PBXBuildFile; fileRef = D1A8CDF16366462A4AFCE221; };
 		572540AAE3246417FE0DE6DE /* Standalone Plugin */ = {isa = PBXBuildFile; fileRef = A8170253EB2BAED3F6934C6A; };
+		57C7495CD32EE6CF904F7CF8 /* instrument.cpp */ = {isa = PBXBuildFile; fileRef = E1A9471A69E84C6C0454C1EA; };
+		5A3FD5AC8FF512117FBFBAB9 /* sequencer.cpp */ = {isa = PBXBuildFile; fileRef = 579AD9DFA874C12960853869; };
 		5D019D1BA77782292CB7A27A /* PluginProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 499F2C592C72422AC540BA9E; };
+		5E9E9883D337D0844575C4B9 /* loop_composer.cpp */ = {isa = PBXBuildFile; fileRef = B589EFC761A3F49F370D9306; };
+		5FB9C436F0E5A4833F68B6D7 /* effect.cpp */ = {isa = PBXBuildFile; fileRef = D19B23A536973FB1B9C9BF41; };
+		613043A330F46A5FE2302BBB /* bridge.cpp */ = {isa = PBXBuildFile; fileRef = 12C68D3C401661D9FA246E32; };
+		6254845F3A3B9C950CE28E4F /* Rim Shot A 808 Tape-Dyu1MR1N.wav */ = {isa = PBXBuildFile; fileRef = 81EF4FE32ED3DB0D951D75BB; };
 		62BE1A590A5E63E1020459D6 /* include_juce_audio_devices.mm */ = {isa = PBXBuildFile; fileRef = 3DA35868B510E2AAA12AD6B8; };
+		64D079A8FBEF09B727761778 /* clock.cpp */ = {isa = PBXBuildFile; fileRef = 77A7F298C02148B2BA0B0BED; };
 		66A1659FF383297C4F145B2D /* AU */ = {isa = PBXBuildFile; fileRef = 4E6ABCFBF163326CFEE85AC2; };
+		670852B07C4EC2B56C903393 /* midi_io.cpp */ = {isa = PBXBuildFile; fileRef = 48506DCDFEE51DFA686EEE9E; };
+		678DFDBEEEFC9F7CD3253447 /* MidiMessage.cpp */ = {isa = PBXBuildFile; fileRef = D016B663886A044EDDE25E29; };
+		6BE23C5EB6D169069C3FD6B8 /* Clap 808 Color 03-YpiicTqE.wav */ = {isa = PBXBuildFile; fileRef = A078EFD51E76D39186D8E85B; };
+		6D1F776339213D7A6592DF0F /* jazz.cpp */ = {isa = PBXBuildFile; fileRef = ADDF24A587CD2F3A520B32A4; };
 		6DB446E117D93FE31F235B0A /* include_juce_audio_processors_lv2_libs.cpp */ = {isa = PBXBuildFile; fileRef = 674A055F5B5F658EAE7F9A13; };
 		733CA54B34A3807016977C12 /* RecentFilesMenuTemplate.nib */ = {isa = PBXBuildFile; fileRef = 57A9F5215F90D41F788D1611; };
+		752D30ACA2DFE542152401C5 /* tempo.cpp */ = {isa = PBXBuildFile; fileRef = 58EB4450875877752BC28D71; };
+		75ACE7A979C9C1A10B500411 /* modulator.cpp */ = {isa = PBXBuildFile; fileRef = 9B1C498209CDF6E5BFB4A026; };
 		7B0F3B85F89D0793931338AA /* include_juce_audio_plugin_client_ARA.cpp */ = {isa = PBXBuildFile; fileRef = EDEF0D6C744B5038EBD2D934; };
 		7B5A45E41CF9F5E0E322ACD0 /* VST3 */ = {isa = PBXBuildFile; fileRef = 84FC8A3818BCE6690137FE86; };
 		7B8162AB08795B55D39822B4 /* PluginEditor.cpp */ = {isa = PBXBuildFile; fileRef = 3B895713868E0502AC51CF6B; };
+		7CF3EC74E9DBD6F64F98A059 /* Options.cpp */ = {isa = PBXBuildFile; fileRef = 1FCFC576A2DB327BB9F117B3; };
 		7F691B5B134F8E0396D3C278 /* WebKit.framework */ = {isa = PBXBuildFile; fileRef = 05DD607DA142D5064F595AC5; };
+		8077483BE9400C1FC29C059E /* scale.cpp */ = {isa = PBXBuildFile; fileRef = E1714BDFB22D2ED4BA7795C5; };
 		83ADC7072E0ADA94270A1AAF /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 370E9996C297A51396EDADC4; };
 		84D52A89B03A48329634769E /* include_juce_audio_plugin_client_Standalone.cpp */ = {isa = PBXBuildFile; fileRef = 3432C149E68B2EC55E179233; };
+		8B817B4DF11DB94202CF8C2E /* intro.cpp */ = {isa = PBXBuildFile; fileRef = B94854F2B3641633BC0816BA; };
+		8C167F93D38D98F7214B8FA5 /* patch.cpp */ = {isa = PBXBuildFile; fileRef = 1D0119E26D91E59C2AE2BC45; };
+		8C77A6E9A64CD4D83EE0BF6C /* RtMidi.cpp */ = {isa = PBXBuildFile; fileRef = CB3ABCDCE0C8A3935B199929; };
 		8DB4E01D148062D0D2608D88 /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = D05509E247D4422E7CCB8450; };
+		90151AF7F2A07A502B613F5C /* tr8s.cpp */ = {isa = PBXBuildFile; fileRef = A3E2CAFF8E9BE0B5B0B78AB7; };
+		904D7AFB43FA8413EB9077F8 /* note.cpp */ = {isa = PBXBuildFile; fileRef = C9ECF1383F822D77EE9EC359; };
 		93CCBBC7F5A12B8681F2260F /* MetalKit.framework */ = {isa = PBXBuildFile; fileRef = 69959714B61021351C789B0D; settings = { ATTRIBUTES = (Weak, ); }; };
 		970DF8D6207FB568EBDAF6E5 /* include_juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = 220FCF3614A6842CE1EE6099; };
+		9739E481D940E937CF23B091 /* note_cloud.cpp */ = {isa = PBXBuildFile; fileRef = C37A250490CAF1EFC78A2E80; };
+		9ACB7B0DE2899BCAF5F2045B /* mother32.cpp */ = {isa = PBXBuildFile; fileRef = 5274D6B391DC74C556B0F740; };
+		9C3D389FF4FFA3E395FD9954 /* MidiEvent.cpp */ = {isa = PBXBuildFile; fileRef = 4B9D8C3D70BD06AEA1669817; };
+		9EF5A427959A761BEFC1481B /* electronica_composer.cpp */ = {isa = PBXBuildFile; fileRef = EA6D2B1819FE24B71DDCFF55; };
 		A492F7F32BD9B26641AED3BD /* include_juce_audio_basics.mm */ = {isa = PBXBuildFile; fileRef = 02874705C7F18220D432CFDF; };
+		AC0F265D8B4FD5483612ED3F /* articulation.cpp */ = {isa = PBXBuildFile; fileRef = A9D1BB8015D6182B79C2F5B8; };
 		B00FD585AC208175EBECAA58 /* CoreAudioKit.framework */ = {isa = PBXBuildFile; fileRef = 15CA2D6C4BCC4F5C8603B540; };
+		B03F0C48850221B03764436E /* matriarch.cpp */ = {isa = PBXBuildFile; fileRef = 1C194779A4513ADDF9611BE5; };
+		B5A78F8555A70238B6ED4233 /* drum_roll.cpp */ = {isa = PBXBuildFile; fileRef = E654DFCC857FF545CA0DD5EF; };
+		B5B12A7ECB11C1A49BD8A21D /* ableton_simpler.cpp */ = {isa = PBXBuildFile; fileRef = 012109F794D4753413550FEE; };
+		B6FDAA623CB363D35F2B4B0A /* midi_cc.cpp */ = {isa = PBXBuildFile; fileRef = 8FD405206D854BBE4207C28B; };
+		BC9200286F623BB22841A984 /* melody.cpp */ = {isa = PBXBuildFile; fileRef = 252D61F56BB70D5F8DFE34BB; };
+		BECCC983FA1C4272648B2CA7 /* index-rDLYKOXy.js */ = {isa = PBXBuildFile; fileRef = FBA74BDF2B1F8CEB1C65B845; };
+		BFF388B27321936A4312BEE4 /* progression.cpp */ = {isa = PBXBuildFile; fileRef = E37B44E0CA45CF4F382E698B; };
 		C1B76DB8DB71DA7AED33C4F5 /* Shared Code */ = {isa = PBXBuildFile; fileRef = 0D293D89A4241FAFF08AA33B; };
 		C510AE46D1D8294F02C0FF03 /* include_juce_events.mm */ = {isa = PBXBuildFile; fileRef = 1242FAEF7A902A2A9A76C3CD; };
+		C5D3FAC6AE834468FFE698BC /* repetition.cpp */ = {isa = PBXBuildFile; fileRef = F96F0687E3B885D197958C8E; };
+		C6FF9B7374517452CA364F34 /* Cowbell 808 Color Short 03-8s3gaU-1.wav */ = {isa = PBXBuildFile; fileRef = 839005E8745409BA51134806; };
+		D11EC3361B03BEE9D8F1DDA9 /* patterns.cpp */ = {isa = PBXBuildFile; fileRef = 1DCC68A90E21E7692E35718A; };
+		D2B800B7D72F50ABC20737FC /* ju06a.cpp */ = {isa = PBXBuildFile; fileRef = 06E730D1F21149FE3B1C51A4; };
 		D5CCD9381B4D2525323D565C /* include_juce_audio_formats.mm */ = {isa = PBXBuildFile; fileRef = C70F5C1117A74FA10AA288C8; };
+		D77146EF46D890DA60B5D909 /* tension.cpp */ = {isa = PBXBuildFile; fileRef = D5EBAD1FAFEE8E93E56EFF97; };
+		DB01515915234645C631D57E /* midi_effects.cpp */ = {isa = PBXBuildFile; fileRef = CD70A1DF59FFBA56B2008CF5; };
+		DB1D0D50F63371824C523867 /* synthesizer.cpp */ = {isa = PBXBuildFile; fileRef = 73B5017A9A1B53B4474DF6FD; };
+		DC96801C057F9A96A73DF674 /* OH 808 Tape Decay 02-LCKxGQrq.wav */ = {isa = PBXBuildFile; fileRef = 15A22E8D004C357EAA57998B; };
 		DE87F997D6435EFC55DC479F /* include_juce_audio_processors.mm */ = {isa = PBXBuildFile; fileRef = 223AAF963CF5449994D505B9; };
+		DFBD573F80B3EF2FF98CE0BF /* emotion.cpp */ = {isa = PBXBuildFile; fileRef = 33E68F8305B28C53699E3233; };
+		E0890A6A5FF86DDE58628769 /* pre-chorus.cpp */ = {isa = PBXBuildFile; fileRef = AEF9B71D41CB349E0A1D7186; };
 		E11FBBE1EA4AF85D1A63F470 /* include_juce_audio_plugin_client_AU_1.mm */ = {isa = PBXBuildFile; fileRef = 2AF2F77FBEB473CEF1A676B2; };
+		E2F9388E8783F1624F486A29 /* chord_voicing.cpp */ = {isa = PBXBuildFile; fileRef = C1356C946B9B0752C629CE61; };
 		E40B61053BEF242611F306DB /* Accelerate.framework */ = {isa = PBXBuildFile; fileRef = 4854C197E420CB848BFEAC8A; };
+		E464EA1010DD9ADFCB77C615 /* index-FrAjhvBs.css */ = {isa = PBXBuildFile; fileRef = 01E30331105DA564DCB616BD; };
+		E645BAB70374EC0E32A43BEC /* Binasc.cpp */ = {isa = PBXBuildFile; fileRef = 29D8227248182D5F2E8CCCC6; };
 		E64A899652106A657699F1A9 /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 6B516A06D793B1BAD8C91F7B; };
+		E6C9CEA3D086B99D69AA3AA6 /* swing.cpp */ = {isa = PBXBuildFile; fileRef = 67C15C3CEB16483E47E88057; };
 		E716694BF02A6E186AE8E9DE /* DiscRecording.framework */ = {isa = PBXBuildFile; fileRef = DA3C17226437C896AFA4AB80; };
+		E99AE7918ED6CD5D179FA3F1 /* Tom Mid A 808 08-CnT_XGWI.wav */ = {isa = PBXBuildFile; fileRef = B8068190AB027364DDFF7D90; };
+		EE5831A30DF0ED6595D938C3 /* ableton_drum_rack.cpp */ = {isa = PBXBuildFile; fileRef = 3E8160A26B561F4CDB883F30; };
+		EF19A683DC5B0DFEF6B2B8A9 /* BD 808 Mid Color A 05-pno7fNUy.wav */ = {isa = PBXBuildFile; fileRef = 1E1596518F3FCD978DA020D5; };
+		F0AECB721520B08E5CDAEE36 /* verse.cpp */ = {isa = PBXBuildFile; fileRef = 04395BE6FF6E8B94F1188025; };
+		F249B54DE8C9860BFD1A790F /* file_sequencer.cpp */ = {isa = PBXBuildFile; fileRef = 57594C4EB0BA4D6774135FC9; };
+		F40FB6BEAC6A8B4C3DCB8818 /* arpeggiator.cpp */ = {isa = PBXBuildFile; fileRef = 5B64A31FF7913B6392BA42BE; };
+		F4C94DD6EA392C3291FB52AD /* display.cpp */ = {isa = PBXBuildFile; fileRef = E4CDBCB39369E9CA0AA513F7; };
+		F4EB16372858DEFEA69BD336 /* circle_of_fifths.cpp */ = {isa = PBXBuildFile; fileRef = 3748E28F6B08980164EAD15B; };
 		F610048C95C9CC8C069D79AC /* AudioToolbox.framework */ = {isa = PBXBuildFile; fileRef = 9A923B6F081D895E99019505; };
+		F6E826D76E6A48B668FA5D70 /* sub37.cpp */ = {isa = PBXBuildFile; fileRef = 40676ABF47E748EAD92EC2DF; };
+		F7722EB384EFC90DB8964A2D /* nord_wave.cpp */ = {isa = PBXBuildFile; fileRef = 5930E04053B2457892595182; };
 		F7B2D53FE28D929CBFFAA7D0 /* include_juce_audio_plugin_client_VST3.mm */ = {isa = PBXBuildFile; fileRef = FEE6952ADC0E00FFD8AC77F9; };
 		FA5247C329F7D5A977612679 /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = 905012482C7D19E040759000; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00B227D3F5E784D680C8359A /* song.cpp */ /* song.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = song.cpp; path = ../../songbird/libraries/theory/song.cpp; sourceTree = SOURCE_ROOT; };
+		012109F794D4753413550FEE /* ableton_simpler.cpp */ /* ableton_simpler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ableton_simpler.cpp; path = ../../songbird/libraries/voices/samplers/ableton_simpler.cpp; sourceTree = SOURCE_ROOT; };
+		01E30331105DA564DCB616BD /* index-FrAjhvBs.css */ /* index-FrAjhvBs.css */ = {isa = PBXFileReference; lastKnownFileType = file.css; name = "index-FrAjhvBs.css"; path = "../../compiled/assets/index-FrAjhvBs.css"; sourceTree = SOURCE_ROOT; };
+		02549D4ABA330A59501AAC5A /* progression.h */ /* progression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = progression.h; path = ../../songbird/libraries/theory/progression.h; sourceTree = SOURCE_ROOT; };
 		02874705C7F18220D432CFDF /* include_juce_audio_basics.mm */ /* include_juce_audio_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_basics.mm; path = ../../JuceLibraryCode/include_juce_audio_basics.mm; sourceTree = SOURCE_ROOT; };
+		02EB891C77ED7CCA4456B5B3 /* midi_inst.h */ /* midi_inst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = midi_inst.h; path = ../../songbird/libraries/voices/midi/midi_inst.h; sourceTree = SOURCE_ROOT; };
+		04395BE6FF6E8B94F1188025 /* verse.cpp */ /* verse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = verse.cpp; path = ../../songbird/libraries/composition/arrangement/verse.cpp; sourceTree = SOURCE_ROOT; };
+		05C3CA3E8AF2FD5F3C78906B /* techno.cpp */ /* techno.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = techno.cpp; path = ../../songbird/libraries/composition/styles/techno.cpp; sourceTree = SOURCE_ROOT; };
 		05DD607DA142D5064F595AC5 /* WebKit.framework */ /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		06E730D1F21149FE3B1C51A4 /* ju06a.cpp */ /* ju06a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ju06a.cpp; path = ../../songbird/libraries/voices/synths/ju06a.cpp; sourceTree = SOURCE_ROOT; };
+		078C2A0B2D13603B2E6E994F /* intro.h */ /* intro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = intro.h; path = ../../songbird/libraries/composition/arrangement/intro.h; sourceTree = SOURCE_ROOT; };
+		0877E70434406FFA6FD459D5 /* ambiance.h */ /* ambiance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ambiance.h; path = ../../songbird/libraries/effects/effects/ambiance.h; sourceTree = SOURCE_ROOT; };
+		0898FB7F0B73AFAF07F699C9 /* song.h */ /* song.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = song.h; path = ../../songbird/libraries/theory/song.h; sourceTree = SOURCE_ROOT; };
+		0A810DA238C1BEFF23D6DD40 /* composer.h */ /* composer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = composer.h; path = ../../songbird/libraries/composition/composer.h; sourceTree = SOURCE_ROOT; };
+		0A87D0FD5065094835A6A5B3 /* Tom Hi A 808 08-HO-IszNz.wav */ /* Tom Hi A 808 08-HO-IszNz.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "Tom Hi A 808 08-HO-IszNz.wav"; path = "../../compiled/assets/Tom Hi A 808 08-HO-IszNz.wav"; sourceTree = SOURCE_ROOT; };
+		0BAC39BF97729FEFE8776035 /* MidiEventList.h */ /* MidiEventList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MidiEventList.h; path = ../../songbird/libraries/interface/midifile/MidiEventList.h; sourceTree = SOURCE_ROOT; };
 		0BAE22B5489E4831F5C5CBDE /* PluginProcessor.h */ /* PluginProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginProcessor.h; path = ../../Source/PluginProcessor.h; sourceTree = SOURCE_ROOT; };
+		0BF7BF96E2957C1FCD12144F /* arrangement.h */ /* arrangement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = arrangement.h; path = ../../songbird/libraries/composition/arrangement/arrangement.h; sourceTree = SOURCE_ROOT; };
+		0C2BD5ADE0545C09C5E0831F /* chorus.cpp */ /* chorus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = chorus.cpp; path = ../../songbird/libraries/composition/arrangement/chorus.cpp; sourceTree = SOURCE_ROOT; };
 		0CDD1BAE7127DB3039B02D94 /* juce_audio_processors */ /* juce_audio_processors */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_processors; path = "~/JUCE/modules/juce_audio_processors"; sourceTree = "<absolute>"; };
 		0D293D89A4241FAFF08AA33B /* Shared Code */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSongbird Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1242FAEF7A902A2A9A76C3CD /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
+		12C68D3C401661D9FA246E32 /* bridge.cpp */ /* bridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bridge.cpp; path = ../../songbird/libraries/composition/arrangement/bridge.cpp; sourceTree = SOURCE_ROOT; };
+		13F3DBD7948FC3C4014ED94A /* SD B 808 Tape Tone C 06-nOcwZapV.wav */ /* SD B 808 Tape Tone C 06-nOcwZapV.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "SD B 808 Tape Tone C 06-nOcwZapV.wav"; path = "../../compiled/assets/SD B 808 Tape Tone C 06-nOcwZapV.wav"; sourceTree = SOURCE_ROOT; };
+		15A22E8D004C357EAA57998B /* OH 808 Tape Decay 02-LCKxGQrq.wav */ /* OH 808 Tape Decay 02-LCKxGQrq.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "OH 808 Tape Decay 02-LCKxGQrq.wav"; path = "../../compiled/assets/OH 808 Tape Decay 02-LCKxGQrq.wav"; sourceTree = SOURCE_ROOT; };
 		15CA2D6C4BCC4F5C8603B540 /* CoreAudioKit.framework */ /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		168F6C91031045709A2E5431 /* arpeggiator.h */ /* arpeggiator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = arpeggiator.h; path = ../../songbird/libraries/sequencing/utils/arpeggiator.h; sourceTree = SOURCE_ROOT; };
+		16C734C21B45BAFD6D687017 /* ju06a.h */ /* ju06a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ju06a.h; path = ../../songbird/libraries/voices/synths/ju06a.h; sourceTree = SOURCE_ROOT; };
+		186BDA79531634B19998B647 /* swing.h */ /* swing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = swing.h; path = ../../songbird/libraries/sequencing/utils/swing.h; sourceTree = SOURCE_ROOT; };
+		191E1F2B1B191009B8816C2B /* ableton_drum_rack.h */ /* ableton_drum_rack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ableton_drum_rack.h; path = ../../songbird/libraries/voices/drum_machines/ableton_drum_rack.h; sourceTree = SOURCE_ROOT; };
+		1C194779A4513ADDF9611BE5 /* matriarch.cpp */ /* matriarch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = matriarch.cpp; path = ../../songbird/libraries/voices/synths/matriarch.cpp; sourceTree = SOURCE_ROOT; };
+		1D0119E26D91E59C2AE2BC45 /* patch.cpp */ /* patch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = patch.cpp; path = ../../songbird/libraries/voices/synths/patch.cpp; sourceTree = SOURCE_ROOT; };
+		1D178B9E2D0145E66553C9B8 /* subharmonicon.h */ /* subharmonicon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = subharmonicon.h; path = ../../songbird/libraries/voices/synths/subharmonicon.h; sourceTree = SOURCE_ROOT; };
+		1DCC68A90E21E7692E35718A /* patterns.cpp */ /* patterns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = patterns.cpp; path = ../../songbird/libraries/sequencing/utils/patterns.cpp; sourceTree = SOURCE_ROOT; };
+		1E1596518F3FCD978DA020D5 /* BD 808 Mid Color A 05-pno7fNUy.wav */ /* BD 808 Mid Color A 05-pno7fNUy.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "BD 808 Mid Color A 05-pno7fNUy.wav"; path = "../../compiled/assets/BD 808 Mid Color A 05-pno7fNUy.wav"; sourceTree = SOURCE_ROOT; };
+		1F7403CF1EDF7D0838C662C6 /* MidiFile.h */ /* MidiFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MidiFile.h; path = ../../songbird/libraries/interface/midifile/MidiFile.h; sourceTree = SOURCE_ROOT; };
+		1FCFC576A2DB327BB9F117B3 /* Options.cpp */ /* Options.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Options.cpp; path = ../../songbird/libraries/interface/midifile/Options.cpp; sourceTree = SOURCE_ROOT; };
+		212500B5CB1A249613782572 /* ambiance.cpp */ /* ambiance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ambiance.cpp; path = ../../songbird/libraries/effects/effects/ambiance.cpp; sourceTree = SOURCE_ROOT; };
 		220FCF3614A6842CE1EE6099 /* include_juce_data_structures.mm */ /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
 		223AAF963CF5449994D505B9 /* include_juce_audio_processors.mm */ /* include_juce_audio_processors.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_processors.mm; path = ../../JuceLibraryCode/include_juce_audio_processors.mm; sourceTree = SOURCE_ROOT; };
+		2329675C636CF47AB229DD09 /* MidiEvent.h */ /* MidiEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MidiEvent.h; path = ../../songbird/libraries/interface/midifile/MidiEvent.h; sourceTree = SOURCE_ROOT; };
+		252D61F56BB70D5F8DFE34BB /* melody.cpp */ /* melody.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = melody.cpp; path = ../../songbird/libraries/sequencing/sequencers/melody.cpp; sourceTree = SOURCE_ROOT; };
+		29D8227248182D5F2E8CCCC6 /* Binasc.cpp */ /* Binasc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Binasc.cpp; path = ../../songbird/libraries/interface/midifile/Binasc.cpp; sourceTree = SOURCE_ROOT; };
 		2AF2F77FBEB473CEF1A676B2 /* include_juce_audio_plugin_client_AU_1.mm */ /* include_juce_audio_plugin_client_AU_1.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AU_1.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm; sourceTree = SOURCE_ROOT; };
+		2B81CFDED6F414B9E950F0AD /* rythym.h */ /* rythym.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rythym.h; path = ../../songbird/libraries/theory/rythym.h; sourceTree = SOURCE_ROOT; };
+		2B8EBD7AA4BD2B81ECBA87BF /* composer.cpp */ /* composer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = composer.cpp; path = ../../songbird/libraries/composition/composer.cpp; sourceTree = SOURCE_ROOT; };
+		2C91DC144606B28C3448ADE0 /* midi_note.cpp */ /* midi_note.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = midi_note.cpp; path = ../../songbird/libraries/voices/midi/midi_note.cpp; sourceTree = SOURCE_ROOT; };
+		2EB37CACC72A388C1BB3077F /* nord_drum.cpp */ /* nord_drum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = nord_drum.cpp; path = ../../songbird/libraries/voices/drum_machines/nord_drum.cpp; sourceTree = SOURCE_ROOT; };
+		303428740A3373DC4888058D /* bridge.h */ /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bridge.h; path = ../../songbird/libraries/composition/arrangement/bridge.h; sourceTree = SOURCE_ROOT; };
+		31686D68440893599A3A324A /* jazz.h */ /* jazz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jazz.h; path = ../../songbird/libraries/composition/styles/jazz.h; sourceTree = SOURCE_ROOT; };
+		3247B8A8FB5E109CA12F60FB /* repetition.h */ /* repetition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = repetition.h; path = ../../songbird/libraries/theory/repetition.h; sourceTree = SOURCE_ROOT; };
+		33E68F8305B28C53699E3233 /* emotion.cpp */ /* emotion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = emotion.cpp; path = ../../songbird/libraries/composition/themes/emotion.cpp; sourceTree = SOURCE_ROOT; };
 		3432C149E68B2EC55E179233 /* include_juce_audio_plugin_client_Standalone.cpp */ /* include_juce_audio_plugin_client_Standalone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_plugin_client_Standalone.cpp; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp; sourceTree = SOURCE_ROOT; };
 		370E9996C297A51396EDADC4 /* include_juce_gui_basics.mm */ /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
+		3748E28F6B08980164EAD15B /* circle_of_fifths.cpp */ /* circle_of_fifths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = circle_of_fifths.cpp; path = ../../songbird/libraries/theory/circle_of_fifths.cpp; sourceTree = SOURCE_ROOT; };
+		3AB188369F978E098AA64CCD /* emotion.h */ /* emotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = emotion.h; path = ../../songbird/libraries/composition/themes/emotion.h; sourceTree = SOURCE_ROOT; };
 		3B895713868E0502AC51CF6B /* PluginEditor.cpp */ /* PluginEditor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginEditor.cpp; path = ../../Source/PluginEditor.cpp; sourceTree = SOURCE_ROOT; };
+		3C80411D1A61B7526FDB29C4 /* motif.cpp */ /* motif.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = motif.cpp; path = ../../songbird/libraries/composition/themes/motif.cpp; sourceTree = SOURCE_ROOT; };
+		3D902D4552EC89411D12E477 /* MidiMessage.h */ /* MidiMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MidiMessage.h; path = ../../songbird/libraries/interface/midifile/MidiMessage.h; sourceTree = SOURCE_ROOT; };
 		3DA35868B510E2AAA12AD6B8 /* include_juce_audio_devices.mm */ /* include_juce_audio_devices.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_devices.mm; path = ../../JuceLibraryCode/include_juce_audio_devices.mm; sourceTree = SOURCE_ROOT; };
 		3DB23D2C493E6C0B8EEF667B /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = "~/JUCE/modules/juce_core"; sourceTree = "<absolute>"; };
+		3E8160A26B561F4CDB883F30 /* ableton_drum_rack.cpp */ /* ableton_drum_rack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ableton_drum_rack.cpp; path = ../../songbird/libraries/voices/drum_machines/ableton_drum_rack.cpp; sourceTree = SOURCE_ROOT; };
+		40676ABF47E748EAD92EC2DF /* sub37.cpp */ /* sub37.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sub37.cpp; path = ../../songbird/libraries/voices/synths/sub37.cpp; sourceTree = SOURCE_ROOT; };
+		410CB432B311F56453D47E98 /* note.h */ /* note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = note.h; path = ../../songbird/libraries/sequencing/note.h; sourceTree = SOURCE_ROOT; };
 		4437BDB25464A5BCB5DE3471 /* juce_gui_extra */ /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = "~/JUCE/modules/juce_gui_extra"; sourceTree = "<absolute>"; };
+		445A69812C47FA9E5B382A0E /* subharmonicon.cpp */ /* subharmonicon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = subharmonicon.cpp; path = ../../songbird/libraries/voices/synths/subharmonicon.cpp; sourceTree = SOURCE_ROOT; };
 		455A34EF7538019AD914A4FD /* Info-Standalone_Plugin.plist */ /* Info-Standalone_Plugin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Standalone_Plugin.plist"; path = "Info-Standalone_Plugin.plist"; sourceTree = SOURCE_ROOT; };
+		4655A45511B3A49A8AA70ECE /* program.h */ /* program.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = program.h; path = ../../songbird/libraries/interface/program.h; sourceTree = SOURCE_ROOT; };
+		474F36F9546C6F37A67B910B /* file_composer.cpp */ /* file_composer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = file_composer.cpp; path = ../../songbird/libraries/composition/composers/file_composer.cpp; sourceTree = SOURCE_ROOT; };
+		47FFD83670BF81B8893C310D /* sampler.cpp */ /* sampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sampler.cpp; path = ../../songbird/libraries/voices/samplers/sampler.cpp; sourceTree = SOURCE_ROOT; };
+		48506DCDFEE51DFA686EEE9E /* midi_io.cpp */ /* midi_io.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = midi_io.cpp; path = ../../songbird/libraries/interface/midi_io.cpp; sourceTree = SOURCE_ROOT; };
 		4854C197E420CB848BFEAC8A /* Accelerate.framework */ /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		499F2C592C72422AC540BA9E /* PluginProcessor.cpp */ /* PluginProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginProcessor.cpp; path = ../../Source/PluginProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		4B9D8C3D70BD06AEA1669817 /* MidiEvent.cpp */ /* MidiEvent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MidiEvent.cpp; path = ../../songbird/libraries/interface/midifile/MidiEvent.cpp; sourceTree = SOURCE_ROOT; };
+		4CA23EF988D4762570DBAD46 /* pre-chorus.h */ /* pre-chorus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pre-chorus.h"; path = "../../songbird/libraries/composition/arrangement/pre-chorus.h"; sourceTree = SOURCE_ROOT; };
+		4D11B66D9F64737DBD86BE80 /* techno.h */ /* techno.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = techno.h; path = ../../songbird/libraries/composition/styles/techno.h; sourceTree = SOURCE_ROOT; };
 		4E6ABCFBF163326CFEE85AC2 /* AU */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Songbird Test.component"; sourceTree = BUILT_PRODUCTS_DIR; };
+		502C0DF320A5626D8FB5E6CE /* classical.h */ /* classical.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = classical.h; path = ../../songbird/libraries/composition/styles/classical.h; sourceTree = SOURCE_ROOT; };
+		504B35A89B6376974913D4DA /* sub37.h */ /* sub37.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sub37.h; path = ../../songbird/libraries/voices/synths/sub37.h; sourceTree = SOURCE_ROOT; };
 		51F3FD1ACD620617588CACAD /* Metal.framework */ /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		5274D6B391DC74C556B0F740 /* mother32.cpp */ /* mother32.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mother32.cpp; path = ../../songbird/libraries/voices/synths/mother32.cpp; sourceTree = SOURCE_ROOT; };
+		542F45EFDF2BBF6756A3B667 /* sequencer.h */ /* sequencer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequencer.h; path = ../../songbird/libraries/sequencing/sequencer.h; sourceTree = SOURCE_ROOT; };
+		54360D31DD7EC211F80AB8F6 /* file_sequencer.h */ /* file_sequencer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = file_sequencer.h; path = ../../songbird/libraries/sequencing/sequencers/file_sequencer.h; sourceTree = SOURCE_ROOT; };
+		57594C4EB0BA4D6774135FC9 /* file_sequencer.cpp */ /* file_sequencer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = file_sequencer.cpp; path = ../../songbird/libraries/sequencing/sequencers/file_sequencer.cpp; sourceTree = SOURCE_ROOT; };
+		579AD9DFA874C12960853869 /* sequencer.cpp */ /* sequencer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sequencer.cpp; path = ../../songbird/libraries/sequencing/sequencer.cpp; sourceTree = SOURCE_ROOT; };
 		57A9F5215F90D41F788D1611 /* RecentFilesMenuTemplate.nib */ /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; name = RecentFilesMenuTemplate.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
+		58EB4450875877752BC28D71 /* tempo.cpp */ /* tempo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tempo.cpp; path = ../../songbird/libraries/theory/tempo.cpp; sourceTree = SOURCE_ROOT; };
+		5930E04053B2457892595182 /* nord_wave.cpp */ /* nord_wave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = nord_wave.cpp; path = ../../songbird/libraries/voices/synths/nord_wave.cpp; sourceTree = SOURCE_ROOT; };
+		59417428B24B81CE75BDBA28 /* loop_composer.h */ /* loop_composer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = loop_composer.h; path = ../../songbird/libraries/composition/composers/loop_composer.h; sourceTree = SOURCE_ROOT; };
+		5B64A31FF7913B6392BA42BE /* arpeggiator.cpp */ /* arpeggiator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = arpeggiator.cpp; path = ../../songbird/libraries/sequencing/utils/arpeggiator.cpp; sourceTree = SOURCE_ROOT; };
+		5CA35B78CD30D512EAD46322 /* clock.h */ /* clock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clock.h; path = ../../songbird/libraries/sequencing/clock.h; sourceTree = SOURCE_ROOT; };
+		5CA4C0F1BC5F60381B08C10F /* chord_sequencer.h */ /* chord_sequencer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = chord_sequencer.h; path = ../../songbird/libraries/sequencing/sequencers/chord_sequencer.h; sourceTree = SOURCE_ROOT; };
+		5D29B55B000FFB30927627E2 /* chord.cpp */ /* chord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = chord.cpp; path = ../../songbird/libraries/theory/chord.cpp; sourceTree = SOURCE_ROOT; };
+		5DDC6583310BF3F135DCE491 /* MidiFile.cpp */ /* MidiFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MidiFile.cpp; path = ../../songbird/libraries/interface/midifile/MidiFile.cpp; sourceTree = SOURCE_ROOT; };
+		5E5669707B3257C6045ECD59 /* nord_wave.h */ /* nord_wave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nord_wave.h; path = ../../songbird/libraries/voices/synths/nord_wave.h; sourceTree = SOURCE_ROOT; };
 		5EBB8ECF664EBFAB9899BD7A /* Foundation.framework */ /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5F664AF5A8B087C88222A609 /* juce_audio_utils */ /* juce_audio_utils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_utils; path = "~/JUCE/modules/juce_audio_utils"; sourceTree = "<absolute>"; };
 		5F853931028D9EE361D6CF7C /* AudioUnit.framework */ /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		6084323C47092B1A457D4F00 /* matriarch.h */ /* matriarch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matriarch.h; path = ../../songbird/libraries/voices/synths/matriarch.h; sourceTree = SOURCE_ROOT; };
+		613174B3F7FB24F0E5455D7F /* patterns.h */ /* patterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = patterns.h; path = ../../songbird/libraries/sequencing/utils/patterns.h; sourceTree = SOURCE_ROOT; };
+		638073E7AC4D5F0A7E5A8544 /* tr8s.h */ /* tr8s.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tr8s.h; path = ../../songbird/libraries/voices/drum_machines/tr8s.h; sourceTree = SOURCE_ROOT; };
+		64C92D8924C6657AB0E68BCD /* midi_inst.cpp */ /* midi_inst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = midi_inst.cpp; path = ../../songbird/libraries/voices/midi/midi_inst.cpp; sourceTree = SOURCE_ROOT; };
+		64D2852BAF99C0980F1A343D /* tension.h */ /* tension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tension.h; path = ../../songbird/libraries/composition/themes/tension.h; sourceTree = SOURCE_ROOT; };
+		669F1D94F9DA40181CA810CC /* chorus.h */ /* chorus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = chorus.h; path = ../../songbird/libraries/composition/arrangement/chorus.h; sourceTree = SOURCE_ROOT; };
+		66FE5619E848745AEF7F1131 /* bass.h */ /* bass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bass.h; path = ../../songbird/libraries/sequencing/sequencers/bass.h; sourceTree = SOURCE_ROOT; };
 		674A055F5B5F658EAE7F9A13 /* include_juce_audio_processors_lv2_libs.cpp */ /* include_juce_audio_processors_lv2_libs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_processors_lv2_libs.cpp; path = ../../JuceLibraryCode/include_juce_audio_processors_lv2_libs.cpp; sourceTree = SOURCE_ROOT; };
+		675A13A09352AD77DF1251F5 /* electronica_composer.h */ /* electronica_composer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = electronica_composer.h; path = ../../songbird/libraries/composition/composers/electronica_composer.h; sourceTree = SOURCE_ROOT; };
+		67C15C3CEB16483E47E88057 /* swing.cpp */ /* swing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = swing.cpp; path = ../../songbird/libraries/sequencing/utils/swing.cpp; sourceTree = SOURCE_ROOT; };
 		69959714B61021351C789B0D /* MetalKit.framework */ /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		69B1D781BC8F313CB12FFE64 /* harmony.h */ /* harmony.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = harmony.h; path = ../../songbird/libraries/sequencing/sequencers/harmony.h; sourceTree = SOURCE_ROOT; };
 		69B5EFD21A2A0867CB5EEA29 /* Cocoa.framework */ /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6A5AFDA96B0C07BC3471918E /* Info-VST3_Manifest_Helper.plist */ /* Info-VST3_Manifest_Helper.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-VST3_Manifest_Helper.plist"; path = "Info-VST3_Manifest_Helper.plist"; sourceTree = SOURCE_ROOT; };
 		6B516A06D793B1BAD8C91F7B /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
+		6C0FF34230E8855C62C8DD41 /* bird_composer.h */ /* bird_composer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bird_composer.h; path = ../../songbird/libraries/composition/composers/bird_composer.h; sourceTree = SOURCE_ROOT; };
 		6CB51B286A634D7C60F6DA73 /* juce_audio_formats */ /* juce_audio_formats */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_formats; path = "~/JUCE/modules/juce_audio_formats"; sourceTree = "<absolute>"; };
+		6DF776D564AC4AA7688CC8B8 /* program.cpp */ /* program.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = program.cpp; path = ../../songbird/libraries/interface/program.cpp; sourceTree = SOURCE_ROOT; };
+		6FCE404D2219FAA810BDBE59 /* Binasc.h */ /* Binasc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Binasc.h; path = ../../songbird/libraries/interface/midifile/Binasc.h; sourceTree = SOURCE_ROOT; };
+		70C8E6496D6DC7861E726469 /* house.cpp */ /* house.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = house.cpp; path = ../../songbird/libraries/composition/styles/house.cpp; sourceTree = SOURCE_ROOT; };
+		7146CA3928010CC545DAB99C /* mother32.h */ /* mother32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mother32.h; path = ../../songbird/libraries/voices/synths/mother32.h; sourceTree = SOURCE_ROOT; };
+		719618CA2F0562F5F49F1F18 /* note_cloud.h */ /* note_cloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = note_cloud.h; path = ../../songbird/libraries/effects/effects/note_cloud.h; sourceTree = SOURCE_ROOT; };
+		72743B5240954438B97FB283 /* buttons.cpp */ /* buttons.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = buttons.cpp; path = ../../songbird/libraries/interface/buttons.cpp; sourceTree = SOURCE_ROOT; };
+		737616F445EA32BD89B0E40A /* melody.h */ /* melody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = melody.h; path = ../../songbird/libraries/sequencing/sequencers/melody.h; sourceTree = SOURCE_ROOT; };
+		73B5017A9A1B53B4474DF6FD /* synthesizer.cpp */ /* synthesizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = synthesizer.cpp; path = ../../songbird/libraries/voices/synths/synthesizer.cpp; sourceTree = SOURCE_ROOT; };
+		77A7F298C02148B2BA0B0BED /* clock.cpp */ /* clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = clock.cpp; path = ../../songbird/libraries/sequencing/clock.cpp; sourceTree = SOURCE_ROOT; };
+		77DDAC5D258582CD258865EC /* basic_composer.h */ /* basic_composer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = basic_composer.h; path = ../../songbird/libraries/composition/composers/basic_composer.h; sourceTree = SOURCE_ROOT; };
+		780D59202F0D2A36EF32E7FE /* midi_io.h */ /* midi_io.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = midi_io.h; path = ../../songbird/libraries/interface/midi_io.h; sourceTree = SOURCE_ROOT; };
 		79769A6B9C95B865A93E303D /* IOKit.framework */ /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		7BBE832A8212BEF6241319D9 /* midi_cc.h */ /* midi_cc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = midi_cc.h; path = ../../songbird/libraries/voices/midi/midi_cc.h; sourceTree = SOURCE_ROOT; };
+		7C85E30005F7A5A5707CB973 /* file_composer.h */ /* file_composer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = file_composer.h; path = ../../songbird/libraries/composition/composers/file_composer.h; sourceTree = SOURCE_ROOT; };
+		816BB98B08974CCBD26DE1DF /* midi_note.h */ /* midi_note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = midi_note.h; path = ../../songbird/libraries/voices/midi/midi_note.h; sourceTree = SOURCE_ROOT; };
 		8177AD300371570E8DEE2D1A /* CoreMIDI.framework */ /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		81EF4FE32ED3DB0D951D75BB /* Rim Shot A 808 Tape-Dyu1MR1N.wav */ /* Rim Shot A 808 Tape-Dyu1MR1N.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "Rim Shot A 808 Tape-Dyu1MR1N.wav"; path = "../../compiled/assets/Rim Shot A 808 Tape-Dyu1MR1N.wav"; sourceTree = SOURCE_ROOT; };
+		839005E8745409BA51134806 /* Cowbell 808 Color Short 03-8s3gaU-1.wav */ /* Cowbell 808 Color Short 03-8s3gaU-1.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "Cowbell 808 Color Short 03-8s3gaU-1.wav"; path = "../../compiled/assets/Cowbell 808 Color Short 03-8s3gaU-1.wav"; sourceTree = SOURCE_ROOT; };
+		83AE320923A93DCBF22193AF /* verse.h */ /* verse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = verse.h; path = ../../songbird/libraries/composition/arrangement/verse.h; sourceTree = SOURCE_ROOT; };
+		8456B7749E730607268B8D62 /* harmony.cpp */ /* harmony.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = harmony.cpp; path = ../../songbird/libraries/sequencing/sequencers/harmony.cpp; sourceTree = SOURCE_ROOT; };
 		84907402A0222562F431267C /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = "~/JUCE/modules/juce_data_structures"; sourceTree = "<absolute>"; };
 		84FC8A3818BCE6690137FE86 /* VST3 */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Songbird Test.vst3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1727D67167883F14B9C3F8 /* model_samples.h */ /* model_samples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = model_samples.h; path = ../../songbird/libraries/voices/samplers/model_samples.h; sourceTree = SOURCE_ROOT; };
 		8AB4CAB08284F8005C592B9F /* include_juce_gui_extra.mm */ /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
 		8B2611DD787531502DFCB24A /* Security.framework */ /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8B525119F8DFDB550B691FC1 /* motif.h */ /* motif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = motif.h; path = ../../songbird/libraries/composition/themes/motif.h; sourceTree = SOURCE_ROOT; };
 		8C4297BE756D6CF6BA601FBD /* Info-VST3.plist */ /* Info-VST3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-VST3.plist"; path = "Info-VST3.plist"; sourceTree = SOURCE_ROOT; };
 		8F16200AE68E5C00BC74EF4B /* include_juce_audio_processors_ara.cpp */ /* include_juce_audio_processors_ara.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_processors_ara.cpp; path = ../../JuceLibraryCode/include_juce_audio_processors_ara.cpp; sourceTree = SOURCE_ROOT; };
+		8FD405206D854BBE4207C28B /* midi_cc.cpp */ /* midi_cc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = midi_cc.cpp; path = ../../songbird/libraries/voices/midi/midi_cc.cpp; sourceTree = SOURCE_ROOT; };
 		905012482C7D19E040759000 /* include_juce_core.mm */ /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
+		96B86D361635BA1985CA6ED1 /* Tom Low A 808 03-K5WLayV-.wav */ /* Tom Low A 808 03-K5WLayV-.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "Tom Low A 808 03-K5WLayV-.wav"; path = "../../compiled/assets/Tom Low A 808 03-K5WLayV-.wav"; sourceTree = SOURCE_ROOT; };
 		9A923B6F081D895E99019505 /* AudioToolbox.framework */ /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		9B02AC6BCED95E5A707B0138 /* juce_events */ /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = "~/JUCE/modules/juce_events"; sourceTree = "<absolute>"; };
+		9B1C498209CDF6E5BFB4A026 /* modulator.cpp */ /* modulator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = modulator.cpp; path = ../../songbird/libraries/sequencing/utils/modulator.cpp; sourceTree = SOURCE_ROOT; };
+		9B4139A06C692E8845D76C73 /* scale.h */ /* scale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = scale.h; path = ../../songbird/libraries/theory/scale.h; sourceTree = SOURCE_ROOT; };
+		9B68841A5B29FFED709FE736 /* chord.h */ /* chord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = chord.h; path = ../../songbird/libraries/theory/chord.h; sourceTree = SOURCE_ROOT; };
+		9D4B4353B37DB68C7A5C9416 /* RtMidi.h */ /* RtMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RtMidi.h; path = ../../songbird/libraries/interface/rtmidi/RtMidi.h; sourceTree = SOURCE_ROOT; };
+		9D7CB80517888A3C9A4EFAE8 /* buttons.h */ /* buttons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = buttons.h; path = ../../songbird/libraries/interface/buttons.h; sourceTree = SOURCE_ROOT; };
+		9F2754BAB24C7EC4749CBFAE /* classical.cpp */ /* classical.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = classical.cpp; path = ../../songbird/libraries/composition/styles/classical.cpp; sourceTree = SOURCE_ROOT; };
+		A078EFD51E76D39186D8E85B /* Clap 808 Color 03-YpiicTqE.wav */ /* Clap 808 Color 03-YpiicTqE.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "Clap 808 Color 03-YpiicTqE.wav"; path = "../../compiled/assets/Clap 808 Color 03-YpiicTqE.wav"; sourceTree = SOURCE_ROOT; };
+		A1D760459743FBE4B7A49225 /* model_samples.cpp */ /* model_samples.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = model_samples.cpp; path = ../../songbird/libraries/voices/samplers/model_samples.cpp; sourceTree = SOURCE_ROOT; };
+		A385AA74CC1576B3FE2C27B6 /* tempo.h */ /* tempo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tempo.h; path = ../../songbird/libraries/theory/tempo.h; sourceTree = SOURCE_ROOT; };
+		A3E2CAFF8E9BE0B5B0B78AB7 /* tr8s.cpp */ /* tr8s.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tr8s.cpp; path = ../../songbird/libraries/voices/drum_machines/tr8s.cpp; sourceTree = SOURCE_ROOT; };
+		A425BA203FDBCB7163D9E551 /* bass.cpp */ /* bass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bass.cpp; path = ../../songbird/libraries/sequencing/sequencers/bass.cpp; sourceTree = SOURCE_ROOT; };
+		A47C4719768086005E1E44EE /* orchestral_rack.cpp */ /* orchestral_rack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = orchestral_rack.cpp; path = ../../songbird/libraries/voices/drum_machines/orchestral_rack.cpp; sourceTree = SOURCE_ROOT; };
+		A66022C55E396209E4124E70 /* circle_of_fifths.h */ /* circle_of_fifths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = circle_of_fifths.h; path = ../../songbird/libraries/theory/circle_of_fifths.h; sourceTree = SOURCE_ROOT; };
 		A8170253EB2BAED3F6934C6A /* Standalone Plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Songbird Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97822AF04B8F61A416C7A37 /* juce_audio_basics */ /* juce_audio_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_basics; path = "~/JUCE/modules/juce_audio_basics"; sourceTree = "<absolute>"; };
+		A9D1BB8015D6182B79C2F5B8 /* articulation.cpp */ /* articulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = articulation.cpp; path = ../../songbird/libraries/sequencing/utils/articulation.cpp; sourceTree = SOURCE_ROOT; };
+		AB342F2942187A59828125C0 /* orchestral_rack.h */ /* orchestral_rack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = orchestral_rack.h; path = ../../songbird/libraries/voices/drum_machines/orchestral_rack.h; sourceTree = SOURCE_ROOT; };
+		ADDF24A587CD2F3A520B32A4 /* jazz.cpp */ /* jazz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = jazz.cpp; path = ../../songbird/libraries/composition/styles/jazz.cpp; sourceTree = SOURCE_ROOT; };
+		AEF9B71D41CB349E0A1D7186 /* pre-chorus.cpp */ /* pre-chorus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "pre-chorus.cpp"; path = "../../songbird/libraries/composition/arrangement/pre-chorus.cpp"; sourceTree = SOURCE_ROOT; };
+		B13B326F986552B0BA8769E8 /* drum_roll.h */ /* drum_roll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drum_roll.h; path = ../../songbird/libraries/sequencing/utils/drum_roll.h; sourceTree = SOURCE_ROOT; };
+		B589EFC761A3F49F370D9306 /* loop_composer.cpp */ /* loop_composer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = loop_composer.cpp; path = ../../songbird/libraries/composition/composers/loop_composer.cpp; sourceTree = SOURCE_ROOT; };
+		B73DAEE3868473FA62AF6DFF /* CH A 808 Tape-LmXkcjVl.wav */ /* CH A 808 Tape-LmXkcjVl.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "CH A 808 Tape-LmXkcjVl.wav"; path = "../../compiled/assets/CH A 808 Tape-LmXkcjVl.wav"; sourceTree = SOURCE_ROOT; };
+		B8068190AB027364DDFF7D90 /* Tom Mid A 808 08-CnT_XGWI.wav */ /* Tom Mid A 808 08-CnT_XGWI.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "Tom Mid A 808 08-CnT_XGWI.wav"; path = "../../compiled/assets/Tom Mid A 808 08-CnT_XGWI.wav"; sourceTree = SOURCE_ROOT; };
+		B94854F2B3641633BC0816BA /* intro.cpp */ /* intro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = intro.cpp; path = ../../songbird/libraries/composition/arrangement/intro.cpp; sourceTree = SOURCE_ROOT; };
+		BB026DF5DBD3E7881D5E0121 /* Cym A 808 Tape Decay C 01-xfbnl7fI.wav */ /* Cym A 808 Tape Decay C 01-xfbnl7fI.wav */ = {isa = PBXFileReference; lastKnownFileType = file.wav; name = "Cym A 808 Tape Decay C 01-xfbnl7fI.wav"; path = "../../compiled/assets/Cym A 808 Tape Decay C 01-xfbnl7fI.wav"; sourceTree = SOURCE_ROOT; };
+		BDEFB20121EA7C1E43BB3BDF /* instrument.h */ /* instrument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = instrument.h; path = ../../songbird/libraries/voices/instrument.h; sourceTree = SOURCE_ROOT; };
 		BF316E5C84362901C7744B71 /* include_juce_audio_plugin_client_AU_2.mm */ /* include_juce_audio_plugin_client_AU_2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AU_2.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm; sourceTree = SOURCE_ROOT; };
 		BF4BAB9BC67B271658D02B6E /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = "~/JUCE/modules/juce_gui_basics"; sourceTree = "<absolute>"; };
+		BFF0443CC3F694B33E1C6D7F /* chord_voicing.h */ /* chord_voicing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = chord_voicing.h; path = ../../songbird/libraries/effects/effects/chord_voicing.h; sourceTree = SOURCE_ROOT; };
+		BFFF911B4D1A67250A538214 /* chord_sequencer.cpp */ /* chord_sequencer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = chord_sequencer.cpp; path = ../../songbird/libraries/sequencing/sequencers/chord_sequencer.cpp; sourceTree = SOURCE_ROOT; };
+		C1356C946B9B0752C629CE61 /* chord_voicing.cpp */ /* chord_voicing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = chord_voicing.cpp; path = ../../songbird/libraries/effects/effects/chord_voicing.cpp; sourceTree = SOURCE_ROOT; };
+		C1FDA2DDE8424400F5017DA0 /* midi_effects.h */ /* midi_effects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = midi_effects.h; path = ../../songbird/libraries/effects/midi_effects.h; sourceTree = SOURCE_ROOT; };
+		C37A250490CAF1EFC78A2E80 /* note_cloud.cpp */ /* note_cloud.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = note_cloud.cpp; path = ../../songbird/libraries/effects/effects/note_cloud.cpp; sourceTree = SOURCE_ROOT; };
 		C452487FDB27E064933AD78C /* CoreAudio.framework */ /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		C4F6E4981058A65ED8F8C13D /* JuceHeader.h */ /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
 		C70F5C1117A74FA10AA288C8 /* include_juce_audio_formats.mm */ /* include_juce_audio_formats.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_formats.mm; path = ../../JuceLibraryCode/include_juce_audio_formats.mm; sourceTree = SOURCE_ROOT; };
+		C884FA7AEAA77961DFB1DD32 /* time_constants.h */ /* time_constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = time_constants.h; path = ../../songbird/libraries/sequencing/utils/time_constants.h; sourceTree = SOURCE_ROOT; };
+		C956F0C1229A889D354C37A5 /* display.h */ /* display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = display.h; path = ../../songbird/libraries/interface/display.h; sourceTree = SOURCE_ROOT; };
+		C9ECF1383F822D77EE9EC359 /* note.cpp */ /* note.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = note.cpp; path = ../../songbird/libraries/sequencing/note.cpp; sourceTree = SOURCE_ROOT; };
+		CB3ABCDCE0C8A3935B199929 /* RtMidi.cpp */ /* RtMidi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RtMidi.cpp; path = ../../songbird/libraries/interface/rtmidi/RtMidi.cpp; sourceTree = SOURCE_ROOT; };
+		CBF261E023D0BE71DC5CCE21 /* groove.h */ /* groove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = groove.h; path = ../../songbird/libraries/sequencing/sequencers/groove.h; sourceTree = SOURCE_ROOT; };
+		CD70A1DF59FFBA56B2008CF5 /* midi_effects.cpp */ /* midi_effects.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = midi_effects.cpp; path = ../../songbird/libraries/effects/midi_effects.cpp; sourceTree = SOURCE_ROOT; };
 		CE2E6CABF94C93109BF4ABC0 /* juce_audio_plugin_client */ /* juce_audio_plugin_client */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_plugin_client; path = "~/JUCE/modules/juce_audio_plugin_client"; sourceTree = "<absolute>"; };
+		D016B663886A044EDDE25E29 /* MidiMessage.cpp */ /* MidiMessage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MidiMessage.cpp; path = ../../songbird/libraries/interface/midifile/MidiMessage.cpp; sourceTree = SOURCE_ROOT; };
 		D05509E247D4422E7CCB8450 /* QuartzCore.framework */ /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D150B20F9A41F2A3DB7DCA8B /* modulator.h */ /* modulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = modulator.h; path = ../../songbird/libraries/sequencing/utils/modulator.h; sourceTree = SOURCE_ROOT; };
+		D19B23A536973FB1B9C9BF41 /* effect.cpp */ /* effect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = effect.cpp; path = ../../songbird/libraries/effects/effect.cpp; sourceTree = SOURCE_ROOT; };
+		D1A8CDF16366462A4AFCE221 /* index.html */ /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../../compiled/index.html; sourceTree = SOURCE_ROOT; };
+		D289E96F386B67005C65BB7F /* rythym.cpp */ /* rythym.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rythym.cpp; path = ../../songbird/libraries/theory/rythym.cpp; sourceTree = SOURCE_ROOT; };
+		D5EBAD1FAFEE8E93E56EFF97 /* tension.cpp */ /* tension.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tension.cpp; path = ../../songbird/libraries/composition/themes/tension.cpp; sourceTree = SOURCE_ROOT; };
+		D7602B7EAC1EF3AA9863BC07 /* counterpoint.cpp */ /* counterpoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = counterpoint.cpp; path = ../../songbird/libraries/effects/effects/counterpoint.cpp; sourceTree = SOURCE_ROOT; };
 		DA3C17226437C896AFA4AB80 /* DiscRecording.framework */ /* DiscRecording.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = System/Library/Frameworks/DiscRecording.framework; sourceTree = SDKROOT; };
+		DFBD6B5AA5B4456B6D2EE1DF /* sampler.h */ /* sampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sampler.h; path = ../../songbird/libraries/voices/samplers/sampler.h; sourceTree = SOURCE_ROOT; };
+		E1714BDFB22D2ED4BA7795C5 /* scale.cpp */ /* scale.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = scale.cpp; path = ../../songbird/libraries/theory/scale.cpp; sourceTree = SOURCE_ROOT; };
+		E1A9471A69E84C6C0454C1EA /* instrument.cpp */ /* instrument.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = instrument.cpp; path = ../../songbird/libraries/voices/instrument.cpp; sourceTree = SOURCE_ROOT; };
+		E1FA2681D63B47BE21207D1A /* outro.cpp */ /* outro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = outro.cpp; path = ../../songbird/libraries/composition/arrangement/outro.cpp; sourceTree = SOURCE_ROOT; };
+		E37B44E0CA45CF4F382E698B /* progression.cpp */ /* progression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = progression.cpp; path = ../../songbird/libraries/theory/progression.cpp; sourceTree = SOURCE_ROOT; };
+		E3DBC9C35443A2120C36C96A /* articulation.h */ /* articulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = articulation.h; path = ../../songbird/libraries/sequencing/utils/articulation.h; sourceTree = SOURCE_ROOT; };
+		E4CDBCB39369E9CA0AA513F7 /* display.cpp */ /* display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = display.cpp; path = ../../songbird/libraries/interface/display.cpp; sourceTree = SOURCE_ROOT; };
+		E654DFCC857FF545CA0DD5EF /* drum_roll.cpp */ /* drum_roll.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drum_roll.cpp; path = ../../songbird/libraries/sequencing/utils/drum_roll.cpp; sourceTree = SOURCE_ROOT; };
+		E7AE9A301A71898AC28C3534 /* arrangement.cpp */ /* arrangement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = arrangement.cpp; path = ../../songbird/libraries/composition/arrangement/arrangement.cpp; sourceTree = SOURCE_ROOT; };
+		EA0222EEEC3F088DA6C35EEE /* nord_drum.h */ /* nord_drum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nord_drum.h; path = ../../songbird/libraries/voices/drum_machines/nord_drum.h; sourceTree = SOURCE_ROOT; };
 		EA5EA0FF08F61A9232955F92 /* juce_graphics */ /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = "~/JUCE/modules/juce_graphics"; sourceTree = "<absolute>"; };
+		EA6D2B1819FE24B71DDCFF55 /* electronica_composer.cpp */ /* electronica_composer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = electronica_composer.cpp; path = ../../songbird/libraries/composition/composers/electronica_composer.cpp; sourceTree = SOURCE_ROOT; };
 		EBA8023F7C8B27CB6C58E69F /* PluginEditor.h */ /* PluginEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginEditor.h; path = ../../Source/PluginEditor.h; sourceTree = SOURCE_ROOT; };
+		ED765C7517BE63BC82C5C72A /* counterpoint.h */ /* counterpoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = counterpoint.h; path = ../../songbird/libraries/effects/effects/counterpoint.h; sourceTree = SOURCE_ROOT; };
 		EDEF0D6C744B5038EBD2D934 /* include_juce_audio_plugin_client_ARA.cpp */ /* include_juce_audio_plugin_client_ARA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_plugin_client_ARA.cpp; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_ARA.cpp; sourceTree = SOURCE_ROOT; };
 		EDFFCB178F35A383F71AF989 /* juce_audio_devices */ /* juce_audio_devices */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_devices; path = "~/JUCE/modules/juce_audio_devices"; sourceTree = "<absolute>"; };
+		EF83255390091A038E75B425 /* console.h */ /* console.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = console.h; path = ../../songbird/libraries/interface/console.h; sourceTree = SOURCE_ROOT; };
+		EFA3FA911834284CCBFA4154 /* drum_machine.cpp */ /* drum_machine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drum_machine.cpp; path = ../../songbird/libraries/voices/drum_machine.cpp; sourceTree = SOURCE_ROOT; };
+		F03D28C0B008BAF5046091A2 /* ableton_simpler.h */ /* ableton_simpler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ableton_simpler.h; path = ../../songbird/libraries/voices/samplers/ableton_simpler.h; sourceTree = SOURCE_ROOT; };
+		F159A9B0AD97CBB5844CAA51 /* Options.h */ /* Options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Options.h; path = ../../songbird/libraries/interface/midifile/Options.h; sourceTree = SOURCE_ROOT; };
+		F2AFE74A789450415ABDECE7 /* synthesizer.h */ /* synthesizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = synthesizer.h; path = ../../songbird/libraries/voices/synths/synthesizer.h; sourceTree = SOURCE_ROOT; };
+		F3B82C95CA114A8CCE4749AF /* house.h */ /* house.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = house.h; path = ../../songbird/libraries/composition/styles/house.h; sourceTree = SOURCE_ROOT; };
+		F3C0833721B421E855FA4170 /* MidiEventList.cpp */ /* MidiEventList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MidiEventList.cpp; path = ../../songbird/libraries/interface/midifile/MidiEventList.cpp; sourceTree = SOURCE_ROOT; };
+		F41E7D2B6CB3E73D0714CFEE /* groove.cpp */ /* groove.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = groove.cpp; path = ../../songbird/libraries/sequencing/sequencers/groove.cpp; sourceTree = SOURCE_ROOT; };
 		F425E689C3D91DF8C0358C7A /* Info-AU.plist */ /* Info-AU.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-AU.plist"; path = "Info-AU.plist"; sourceTree = SOURCE_ROOT; };
+		F4BA2FB12939F85C3110DC20 /* basic_composer.cpp */ /* basic_composer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = basic_composer.cpp; path = ../../songbird/libraries/composition/composers/basic_composer.cpp; sourceTree = SOURCE_ROOT; };
+		F58195249988EA0C61117A6E /* patch.h */ /* patch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = patch.h; path = ../../songbird/libraries/voices/synths/patch.h; sourceTree = SOURCE_ROOT; };
+		F7C9E92D439409FAD50B3B1E /* outro.h */ /* outro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = outro.h; path = ../../songbird/libraries/composition/arrangement/outro.h; sourceTree = SOURCE_ROOT; };
+		F85F7D22C0C28DCA25476B89 /* drum_machine.h */ /* drum_machine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drum_machine.h; path = ../../songbird/libraries/voices/drum_machine.h; sourceTree = SOURCE_ROOT; };
+		F8CC567C05EF33892EC3A8DD /* effect.h */ /* effect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = effect.h; path = ../../songbird/libraries/effects/effect.h; sourceTree = SOURCE_ROOT; };
+		F96F0687E3B885D197958C8E /* repetition.cpp */ /* repetition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = repetition.cpp; path = ../../songbird/libraries/theory/repetition.cpp; sourceTree = SOURCE_ROOT; };
 		FB708BBA88F668AA3EFAB248 /* juce_VST3ManifestHelper.mm */ /* juce_VST3ManifestHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = juce_VST3ManifestHelper.mm; path = "$(HOME)/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm"; sourceTree = "<absolute>"; };
+		FBA74BDF2B1F8CEB1C65B845 /* index-rDLYKOXy.js */ /* index-rDLYKOXy.js */ = {isa = PBXFileReference; lastKnownFileType = file.js; name = "index-rDLYKOXy.js"; path = "../../compiled/assets/index-rDLYKOXy.js"; sourceTree = SOURCE_ROOT; };
 		FBD643A0DB3AE113AC2E95A6 /* include_juce_audio_utils.mm */ /* include_juce_audio_utils.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_utils.mm; path = ../../JuceLibraryCode/include_juce_audio_utils.mm; sourceTree = SOURCE_ROOT; };
 		FC0A9E19506E8D83ABDC3944 /* VST3 Manifest Helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = juce_vst3_helper; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD93672BBB14806C797DE3F /* bird_composer.cpp */ /* bird_composer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bird_composer.cpp; path = ../../songbird/libraries/composition/composers/bird_composer.cpp; sourceTree = SOURCE_ROOT; };
 		FDF54B8354D85E8EF1D7C108 /* JucePluginDefines.h */ /* JucePluginDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JucePluginDefines.h; path = ../../JuceLibraryCode/JucePluginDefines.h; sourceTree = SOURCE_ROOT; };
 		FEE6952ADC0E00FFD8AC77F9 /* include_juce_audio_plugin_client_VST3.mm */ /* include_juce_audio_plugin_client_VST3.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_VST3.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.mm; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -231,6 +501,20 @@
 				455A34EF7538019AD914A4FD,
 				6A5AFDA96B0C07BC3471918E,
 				57A9F5215F90D41F788D1611,
+				1E1596518F3FCD978DA020D5,
+				B73DAEE3868473FA62AF6DFF,
+				A078EFD51E76D39186D8E85B,
+				839005E8745409BA51134806,
+				BB026DF5DBD3E7881D5E0121,
+				01E30331105DA564DCB616BD,
+				FBA74BDF2B1F8CEB1C65B845,
+				15A22E8D004C357EAA57998B,
+				81EF4FE32ED3DB0D951D75BB,
+				13F3DBD7948FC3C4014ED94A,
+				0A87D0FD5065094835A6A5B3,
+				96B86D361635BA1985CA6ED1,
+				B8068190AB027364DDFF7D90,
+				D1A8CDF16366462A4AFCE221,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -262,6 +546,109 @@
 			name = "JUCE Library Code";
 			sourceTree = "<group>";
 		};
+		1D791A5F8DE92385B7870687 /* composition */ = {
+			isa = PBXGroup;
+			children = (
+				2D193907039C64800D24CDEB,
+				5B4F00E8527A47D818144B75,
+				EAB2C1FA765FFC8114BDC8B1,
+				D96BB0C576122A7F72B9DDFF,
+				2B8EBD7AA4BD2B81ECBA87BF,
+				0A810DA238C1BEFF23D6DD40,
+			);
+			name = composition;
+			sourceTree = "<group>";
+		};
+		2D193907039C64800D24CDEB /* arrangement */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE9A301A71898AC28C3534,
+				0BF7BF96E2957C1FCD12144F,
+				12C68D3C401661D9FA246E32,
+				303428740A3373DC4888058D,
+				0C2BD5ADE0545C09C5E0831F,
+				669F1D94F9DA40181CA810CC,
+				B94854F2B3641633BC0816BA,
+				078C2A0B2D13603B2E6E994F,
+				E1FA2681D63B47BE21207D1A,
+				F7C9E92D439409FAD50B3B1E,
+				AEF9B71D41CB349E0A1D7186,
+				4CA23EF988D4762570DBAD46,
+				04395BE6FF6E8B94F1188025,
+				83AE320923A93DCBF22193AF,
+			);
+			name = arrangement;
+			sourceTree = "<group>";
+		};
+		3C0158846670A751CDB3F632 /* theory */ = {
+			isa = PBXGroup;
+			children = (
+				5D29B55B000FFB30927627E2,
+				9B68841A5B29FFED709FE736,
+				3748E28F6B08980164EAD15B,
+				A66022C55E396209E4124E70,
+				E37B44E0CA45CF4F382E698B,
+				02549D4ABA330A59501AAC5A,
+				F96F0687E3B885D197958C8E,
+				3247B8A8FB5E109CA12F60FB,
+				D289E96F386B67005C65BB7F,
+				2B81CFDED6F414B9E950F0AD,
+				E1714BDFB22D2ED4BA7795C5,
+				9B4139A06C692E8845D76C73,
+				00B227D3F5E784D680C8359A,
+				0898FB7F0B73AFAF07F699C9,
+				58EB4450875877752BC28D71,
+				A385AA74CC1576B3FE2C27B6,
+			);
+			name = theory;
+			sourceTree = "<group>";
+		};
+		4B0F4F8AA6DE91EF2D887D63 /* songbird */ = {
+			isa = PBXGroup;
+			children = (
+				559BB6EE4AD4583EC4ABD112,
+			);
+			name = songbird;
+			sourceTree = "<group>";
+		};
+		4BB4BC9A94F5E9D9972DB74E /* synths */ = {
+			isa = PBXGroup;
+			children = (
+				06E730D1F21149FE3B1C51A4,
+				16C734C21B45BAFD6D687017,
+				1C194779A4513ADDF9611BE5,
+				6084323C47092B1A457D4F00,
+				5274D6B391DC74C556B0F740,
+				7146CA3928010CC545DAB99C,
+				5930E04053B2457892595182,
+				5E5669707B3257C6045ECD59,
+				1D0119E26D91E59C2AE2BC45,
+				F58195249988EA0C61117A6E,
+				40676ABF47E748EAD92EC2DF,
+				504B35A89B6376974913D4DA,
+				445A69812C47FA9E5B382A0E,
+				1D178B9E2D0145E66553C9B8,
+				73B5017A9A1B53B4474DF6FD,
+				F2AFE74A789450415ABDECE7,
+			);
+			name = synths;
+			sourceTree = "<group>";
+		};
+		4E7A03EB6FECE6D091035EC2 /* voices */ = {
+			isa = PBXGroup;
+			children = (
+				C04EE1202CBE9E933F8C25EA,
+				E93394593D5A854B88868394,
+				6D08AB77E415DE81898E9CF5,
+				4BB4BC9A94F5E9D9972DB74E,
+				EFA3FA911834284CCBFA4154,
+				F85F7D22C0C28DCA25476B89,
+				E1A9471A69E84C6C0454C1EA,
+				BDEFB20121EA7C1E43BB3BDF,
+			);
+			name = voices;
+			sourceTree = "<group>";
+		};
 		528F21E1BEF8CB8EEF4CE0AE /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +658,76 @@
 				EBA8023F7C8B27CB6C58E69F,
 			);
 			name = Source;
+			sourceTree = "<group>";
+		};
+		559BB6EE4AD4583EC4ABD112 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1D791A5F8DE92385B7870687,
+				CF0F0B8366E4416F2A3F7C4E,
+				79B9AC8EF16E0A43F44DC096,
+				FBDA06C1686187F180E34403,
+				3C0158846670A751CDB3F632,
+				4E7A03EB6FECE6D091035EC2,
+			);
+			name = libraries;
+			sourceTree = "<group>";
+		};
+		5B4F00E8527A47D818144B75 /* composers */ = {
+			isa = PBXGroup;
+			children = (
+				F4BA2FB12939F85C3110DC20,
+				77DDAC5D258582CD258865EC,
+				FDD93672BBB14806C797DE3F,
+				6C0FF34230E8855C62C8DD41,
+				EA6D2B1819FE24B71DDCFF55,
+				675A13A09352AD77DF1251F5,
+				474F36F9546C6F37A67B910B,
+				7C85E30005F7A5A5707CB973,
+				B589EFC761A3F49F370D9306,
+				59417428B24B81CE75BDBA28,
+			);
+			name = composers;
+			sourceTree = "<group>";
+		};
+		6D08AB77E415DE81898E9CF5 /* samplers */ = {
+			isa = PBXGroup;
+			children = (
+				012109F794D4753413550FEE,
+				F03D28C0B008BAF5046091A2,
+				A1D760459743FBE4B7A49225,
+				8A1727D67167883F14B9C3F8,
+				47FFD83670BF81B8893C310D,
+				DFBD6B5AA5B4456B6D2EE1DF,
+			);
+			name = samplers;
+			sourceTree = "<group>";
+		};
+		70413E4B240DF361011FA262 /* rtmidi */ = {
+			isa = PBXGroup;
+			children = (
+				CB3ABCDCE0C8A3935B199929,
+				9D4B4353B37DB68C7A5C9416,
+			);
+			name = rtmidi;
+			sourceTree = "<group>";
+		};
+		79B9AC8EF16E0A43F44DC096 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				96F08FC0ED257EA098D3DAA9,
+				70413E4B240DF361011FA262,
+				72743B5240954438B97FB283,
+				9D7CB80517888A3C9A4EFAE8,
+				EF83255390091A038E75B425,
+				E4CDBCB39369E9CA0AA513F7,
+				C956F0C1229A889D354C37A5,
+				48506DCDFEE51DFA686EEE9E,
+				780D59202F0D2A36EF32E7FE,
+				6DF776D564AC4AA7688CC8B8,
+				4655A45511B3A49A8AA70ECE,
+			);
+			name = interface;
 			sourceTree = "<group>";
 		};
 		7C05EB58A9421F7A2AACC68E /* JUCE Modules */ = {
@@ -290,6 +747,25 @@
 				4437BDB25464A5BCB5DE3471,
 			);
 			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		96F08FC0ED257EA098D3DAA9 /* midifile */ = {
+			isa = PBXGroup;
+			children = (
+				29D8227248182D5F2E8CCCC6,
+				6FCE404D2219FAA810BDBE59,
+				4B9D8C3D70BD06AEA1669817,
+				2329675C636CF47AB229DD09,
+				F3C0833721B421E855FA4170,
+				0BAC39BF97729FEFE8776035,
+				5DDC6583310BF3F135DCE491,
+				1F7403CF1EDF7D0838C662C6,
+				D016B663886A044EDDE25E29,
+				3D902D4552EC89411D12E477,
+				1FCFC576A2DB327BB9F117B3,
+				F159A9B0AD97CBB5844CAA51,
+			);
+			name = midifile;
 			sourceTree = "<group>";
 		};
 		A8A56A5259153666C0EBB286 /* Frameworks */ = {
@@ -314,6 +790,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AD577AB1B385315ADB6118A6 /* sequencers */ = {
+			isa = PBXGroup;
+			children = (
+				A425BA203FDBCB7163D9E551,
+				66FE5619E848745AEF7F1131,
+				BFFF911B4D1A67250A538214,
+				5CA4C0F1BC5F60381B08C10F,
+				57594C4EB0BA4D6774135FC9,
+				54360D31DD7EC211F80AB8F6,
+				F41E7D2B6CB3E73D0714CFEE,
+				CBF261E023D0BE71DC5CCE21,
+				8456B7749E730607268B8D62,
+				69B1D781BC8F313CB12FFE64,
+				252D61F56BB70D5F8DFE34BB,
+				737616F445EA32BD89B0E40A,
+			);
+			name = sequencers;
+			sourceTree = "<group>";
+		};
 		B971E31B37306F6815D60C1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +819,68 @@
 				FC0A9E19506E8D83ABDC3944,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9F79AE95314C5B15E2EB70 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5B64A31FF7913B6392BA42BE,
+				168F6C91031045709A2E5431,
+				A9D1BB8015D6182B79C2F5B8,
+				E3DBC9C35443A2120C36C96A,
+				E654DFCC857FF545CA0DD5EF,
+				B13B326F986552B0BA8769E8,
+				9B1C498209CDF6E5BFB4A026,
+				D150B20F9A41F2A3DB7DCA8B,
+				1DCC68A90E21E7692E35718A,
+				613174B3F7FB24F0E5455D7F,
+				67C15C3CEB16483E47E88057,
+				186BDA79531634B19998B647,
+				C884FA7AEAA77961DFB1DD32,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		C04EE1202CBE9E933F8C25EA /* drum_machines */ = {
+			isa = PBXGroup;
+			children = (
+				3E8160A26B561F4CDB883F30,
+				191E1F2B1B191009B8816C2B,
+				2EB37CACC72A388C1BB3077F,
+				EA0222EEEC3F088DA6C35EEE,
+				A47C4719768086005E1E44EE,
+				AB342F2942187A59828125C0,
+				A3E2CAFF8E9BE0B5B0B78AB7,
+				638073E7AC4D5F0A7E5A8544,
+			);
+			name = drum_machines;
+			sourceTree = "<group>";
+		};
+		C5776182A1DBE5E4A11C218B /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				212500B5CB1A249613782572,
+				0877E70434406FFA6FD459D5,
+				C1356C946B9B0752C629CE61,
+				BFF0443CC3F694B33E1C6D7F,
+				D7602B7EAC1EF3AA9863BC07,
+				ED765C7517BE63BC82C5C72A,
+				C37A250490CAF1EFC78A2E80,
+				719618CA2F0562F5F49F1F18,
+			);
+			name = effects;
+			sourceTree = "<group>";
+		};
+		CF0F0B8366E4416F2A3F7C4E /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				C5776182A1DBE5E4A11C218B,
+				D19B23A536973FB1B9C9BF41,
+				F8CC567C05EF33892EC3A8DD,
+				CD70A1DF59FFBA56B2008CF5,
+				C1FDA2DDE8424400F5017DA0,
+			);
+			name = effects;
 			sourceTree = "<group>";
 		};
 		CF967787A25CEEBC0DA0B3C1 /* Source */ = {
@@ -339,12 +896,69 @@
 			name = Source;
 			sourceTree = "<group>";
 		};
+		D96BB0C576122A7F72B9DDFF /* themes */ = {
+			isa = PBXGroup;
+			children = (
+				33E68F8305B28C53699E3233,
+				3AB188369F978E098AA64CCD,
+				3C80411D1A61B7526FDB29C4,
+				8B525119F8DFDB550B691FC1,
+				D5EBAD1FAFEE8E93E56EFF97,
+				64D2852BAF99C0980F1A343D,
+			);
+			name = themes;
+			sourceTree = "<group>";
+		};
+		E93394593D5A854B88868394 /* midi */ = {
+			isa = PBXGroup;
+			children = (
+				8FD405206D854BBE4207C28B,
+				7BBE832A8212BEF6241319D9,
+				64C92D8924C6657AB0E68BCD,
+				02EB891C77ED7CCA4456B5B3,
+				2C91DC144606B28C3448ADE0,
+				816BB98B08974CCBD26DE1DF,
+			);
+			name = midi;
+			sourceTree = "<group>";
+		};
 		E99BD1592EF050ACABA36CE6 /* Songbird Plugin */ = {
 			isa = PBXGroup;
 			children = (
+				4B0F4F8AA6DE91EF2D887D63,
 				528F21E1BEF8CB8EEF4CE0AE,
 			);
 			name = "Songbird Plugin";
+			sourceTree = "<group>";
+		};
+		EAB2C1FA765FFC8114BDC8B1 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				9F2754BAB24C7EC4749CBFAE,
+				502C0DF320A5626D8FB5E6CE,
+				70C8E6496D6DC7861E726469,
+				F3B82C95CA114A8CCE4749AF,
+				ADDF24A587CD2F3A520B32A4,
+				31686D68440893599A3A324A,
+				05C3CA3E8AF2FD5F3C78906B,
+				4D11B66D9F64737DBD86BE80,
+			);
+			name = styles;
+			sourceTree = "<group>";
+		};
+		FBDA06C1686187F180E34403 /* sequencing */ = {
+			isa = PBXGroup;
+			children = (
+				AD577AB1B385315ADB6118A6,
+				BE9F79AE95314C5B15E2EB70,
+				77A7F298C02148B2BA0B0BED,
+				5CA35B78CD30D512EAD46322,
+				C9ECF1383F822D77EE9EC359,
+				410CB432B311F56453D47E98,
+				579AD9DFA874C12960853869,
+				542F45EFDF2BBF6756A3B667,
+			);
+			name = sequencing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -610,6 +1224,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				733CA54B34A3807016977C12,
+				EF19A683DC5B0DFEF6B2B8A9,
+				014C2399B63EADF47033A550,
+				6BE23C5EB6D169069C3FD6B8,
+				C6FF9B7374517452CA364F34,
+				0488E6F6342B33A249A8E75D,
+				E464EA1010DD9ADFCB77C615,
+				BECCC983FA1C4272648B2CA7,
+				DC96801C057F9A96A73DF674,
+				6254845F3A3B9C950CE28E4F,
+				35B82DBC905506B76BEEB292,
+				49DDBC998CD3C21775D3DD5D,
+				3745B4EB978E4C9BB72468EC,
+				E99AE7918ED6CD5D179FA3F1,
+				55253D049D9C2C342D21B852,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +1246,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				733CA54B34A3807016977C12,
+				EF19A683DC5B0DFEF6B2B8A9,
+				014C2399B63EADF47033A550,
+				6BE23C5EB6D169069C3FD6B8,
+				C6FF9B7374517452CA364F34,
+				0488E6F6342B33A249A8E75D,
+				E464EA1010DD9ADFCB77C615,
+				BECCC983FA1C4272648B2CA7,
+				DC96801C057F9A96A73DF674,
+				6254845F3A3B9C950CE28E4F,
+				35B82DBC905506B76BEEB292,
+				49DDBC998CD3C21775D3DD5D,
+				3745B4EB978E4C9BB72468EC,
+				E99AE7918ED6CD5D179FA3F1,
+				55253D049D9C2C342D21B852,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,6 +1268,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				733CA54B34A3807016977C12,
+				EF19A683DC5B0DFEF6B2B8A9,
+				014C2399B63EADF47033A550,
+				6BE23C5EB6D169069C3FD6B8,
+				C6FF9B7374517452CA364F34,
+				0488E6F6342B33A249A8E75D,
+				E464EA1010DD9ADFCB77C615,
+				BECCC983FA1C4272648B2CA7,
+				DC96801C057F9A96A73DF674,
+				6254845F3A3B9C950CE28E4F,
+				35B82DBC905506B76BEEB292,
+				49DDBC998CD3C21775D3DD5D,
+				3745B4EB978E4C9BB72468EC,
+				E99AE7918ED6CD5D179FA3F1,
+				55253D049D9C2C342D21B852,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,6 +1345,86 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A1A23E255415FF6D4A0BC00,
+				613043A330F46A5FE2302BBB,
+				00310B3113958CB6EC2FEFDF,
+				8B817B4DF11DB94202CF8C2E,
+				351A8441FB327B6F71B015CE,
+				E0890A6A5FF86DDE58628769,
+				F0AECB721520B08E5CDAEE36,
+				21FFAF8BB5765CE2EC1EEE77,
+				4D47D3BF36954165E8FBC678,
+				9EF5A427959A761BEFC1481B,
+				522E7880AE7CCC7F079CFBDA,
+				5E9E9883D337D0844575C4B9,
+				388209C6C132D60FA686C2AA,
+				01D4DFDE428B40CB0DEECAE3,
+				6D1F776339213D7A6592DF0F,
+				3695E5478E4AA820F3801976,
+				DFBD573F80B3EF2FF98CE0BF,
+				48AC36BEF2295C8ACA1E54C7,
+				D77146EF46D890DA60B5D909,
+				0B9D0A137057ADDD2FA60840,
+				51409A4A512F4970A2F8FC49,
+				E2F9388E8783F1624F486A29,
+				1D7457AC7119B9A19166FF9F,
+				9739E481D940E937CF23B091,
+				5FB9C436F0E5A4833F68B6D7,
+				DB01515915234645C631D57E,
+				E645BAB70374EC0E32A43BEC,
+				9C3D389FF4FFA3E395FD9954,
+				020E68DDC02902C1922B26A0,
+				1405E65EA4A77FA5634F74B3,
+				678DFDBEEEFC9F7CD3253447,
+				7CF3EC74E9DBD6F64F98A059,
+				8C77A6E9A64CD4D83EE0BF6C,
+				090FC1CECE6776A0BAFA1EF2,
+				F4C94DD6EA392C3291FB52AD,
+				670852B07C4EC2B56C903393,
+				20B1B1A35830B0192665C569,
+				297128FF907362D272F3136D,
+				54C04ACA1910F926ACAFE856,
+				F249B54DE8C9860BFD1A790F,
+				04F516ADF4E12EC3580785E1,
+				51DE446C332BB1082C3C8B35,
+				BC9200286F623BB22841A984,
+				F40FB6BEAC6A8B4C3DCB8818,
+				AC0F265D8B4FD5483612ED3F,
+				B5A78F8555A70238B6ED4233,
+				75ACE7A979C9C1A10B500411,
+				D11EC3361B03BEE9D8F1DDA9,
+				E6C9CEA3D086B99D69AA3AA6,
+				64D079A8FBEF09B727761778,
+				904D7AFB43FA8413EB9077F8,
+				5A3FD5AC8FF512117FBFBAB9,
+				1732094C9D662E521A6BC178,
+				F4EB16372858DEFEA69BD336,
+				BFF388B27321936A4312BEE4,
+				C5D3FAC6AE834468FFE698BC,
+				459B4DEF7DBC48089B5050FF,
+				8077483BE9400C1FC29C059E,
+				43A8F1513FF70B7A7A239C25,
+				752D30ACA2DFE542152401C5,
+				EE5831A30DF0ED6595D938C3,
+				2D39BD62AFCE2E948B1B9843,
+				02E75564BB03476BB0ECF2F3,
+				90151AF7F2A07A502B613F5C,
+				B6FDAA623CB363D35F2B4B0A,
+				1512FD52E8F2EB2AD42F6DFB,
+				261FC3FD049F82044A2F0F5B,
+				B5B12A7ECB11C1A49BD8A21D,
+				216B32F3E21EA105D8B191AF,
+				23D91A9EB5B45483C8992B49,
+				D2B800B7D72F50ABC20737FC,
+				B03F0C48850221B03764436E,
+				9ACB7B0DE2899BCAF5F2045B,
+				F7722EB384EFC90DB8964A2D,
+				8C167F93D38D98F7214B8FA5,
+				F6E826D76E6A48B668FA5D70,
+				401091122AAA9B752EEECF16,
+				DB1D0D50F63371824C523867,
+				238168310626BB013DB794D7,
+				57C7495CD32EE6CF904F7CF8,
 				5D019D1BA77782292CB7A27A,
 				7B8162AB08795B55D39822B4,
 				A492F7F32BD9B26641AED3BD,

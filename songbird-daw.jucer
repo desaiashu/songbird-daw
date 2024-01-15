@@ -6,6 +6,238 @@
               companyName="Studio Collective" companyWebsite="www.studiocollective.xyz"
               pluginAUMainType="'aumi'">
   <MAINGROUP id="jtcwf8" name="Songbird Plugin">
+    <GROUP id="{7257C36F-02DB-DDFF-AEC0-1440CCF5BC8F}" name="songbird">
+      <GROUP id="{C9873EB8-2AF8-04D7-003C-AD692A03EC7A}" name="libraries">
+        <GROUP id="{C0404132-7B84-037D-0D25-CBBF8E926A9E}" name="composition">
+          <GROUP id="{8CA46EDB-FA9F-C379-3E00-27DABE5AB17D}" name="arrangement">
+            <FILE id="dUDoVV" name="arrangement.cpp" compile="1" resource="0" file="songbird/libraries/composition/arrangement/arrangement.cpp"/>
+            <FILE id="EOwywE" name="arrangement.h" compile="0" resource="0" file="songbird/libraries/composition/arrangement/arrangement.h"/>
+            <FILE id="VgXTNM" name="bridge.cpp" compile="1" resource="0" file="songbird/libraries/composition/arrangement/bridge.cpp"/>
+            <FILE id="w7mEvn" name="bridge.h" compile="0" resource="0" file="songbird/libraries/composition/arrangement/bridge.h"/>
+            <FILE id="bDgA02" name="chorus.cpp" compile="1" resource="0" file="songbird/libraries/composition/arrangement/chorus.cpp"/>
+            <FILE id="IHn2CP" name="chorus.h" compile="0" resource="0" file="songbird/libraries/composition/arrangement/chorus.h"/>
+            <FILE id="wjyFUp" name="intro.cpp" compile="1" resource="0" file="songbird/libraries/composition/arrangement/intro.cpp"/>
+            <FILE id="JduIBU" name="intro.h" compile="0" resource="0" file="songbird/libraries/composition/arrangement/intro.h"/>
+            <FILE id="WpP3yO" name="outro.cpp" compile="1" resource="0" file="songbird/libraries/composition/arrangement/outro.cpp"/>
+            <FILE id="LWMyag" name="outro.h" compile="0" resource="0" file="songbird/libraries/composition/arrangement/outro.h"/>
+            <FILE id="pjXQ9e" name="pre-chorus.cpp" compile="1" resource="0" file="songbird/libraries/composition/arrangement/pre-chorus.cpp"/>
+            <FILE id="cEZCYA" name="pre-chorus.h" compile="0" resource="0" file="songbird/libraries/composition/arrangement/pre-chorus.h"/>
+            <FILE id="HJXjux" name="verse.cpp" compile="1" resource="0" file="songbird/libraries/composition/arrangement/verse.cpp"/>
+            <FILE id="hR2OgM" name="verse.h" compile="0" resource="0" file="songbird/libraries/composition/arrangement/verse.h"/>
+          </GROUP>
+          <GROUP id="{F93CD08B-633E-F06C-848C-A0F59926E2B7}" name="composers">
+            <FILE id="YvY5uS" name="basic_composer.cpp" compile="1" resource="0"
+                  file="songbird/libraries/composition/composers/basic_composer.cpp"/>
+            <FILE id="BtFizr" name="basic_composer.h" compile="0" resource="0"
+                  file="songbird/libraries/composition/composers/basic_composer.h"/>
+            <FILE id="VOGNhn" name="bird_composer.cpp" compile="1" resource="0"
+                  file="songbird/libraries/composition/composers/bird_composer.cpp"/>
+            <FILE id="ogg6Um" name="bird_composer.h" compile="0" resource="0" file="songbird/libraries/composition/composers/bird_composer.h"/>
+            <FILE id="GMf1FR" name="electronica_composer.cpp" compile="1" resource="0"
+                  file="songbird/libraries/composition/composers/electronica_composer.cpp"/>
+            <FILE id="o7vyZ2" name="electronica_composer.h" compile="0" resource="0"
+                  file="songbird/libraries/composition/composers/electronica_composer.h"/>
+            <FILE id="Zr69Vs" name="file_composer.cpp" compile="1" resource="0"
+                  file="songbird/libraries/composition/composers/file_composer.cpp"/>
+            <FILE id="izumTy" name="file_composer.h" compile="0" resource="0" file="songbird/libraries/composition/composers/file_composer.h"/>
+            <FILE id="k4b0Ef" name="loop_composer.cpp" compile="1" resource="0"
+                  file="songbird/libraries/composition/composers/loop_composer.cpp"/>
+            <FILE id="LqV1eS" name="loop_composer.h" compile="0" resource="0" file="songbird/libraries/composition/composers/loop_composer.h"/>
+          </GROUP>
+          <GROUP id="{74B9A476-EDD9-1037-2694-0E47CF344D17}" name="styles">
+            <FILE id="Ts5Y7S" name="classical.cpp" compile="1" resource="0" file="songbird/libraries/composition/styles/classical.cpp"/>
+            <FILE id="rjwqeQ" name="classical.h" compile="0" resource="0" file="songbird/libraries/composition/styles/classical.h"/>
+            <FILE id="umn7HU" name="house.cpp" compile="1" resource="0" file="songbird/libraries/composition/styles/house.cpp"/>
+            <FILE id="Jg9sYp" name="house.h" compile="0" resource="0" file="songbird/libraries/composition/styles/house.h"/>
+            <FILE id="C3rQy2" name="jazz.cpp" compile="1" resource="0" file="songbird/libraries/composition/styles/jazz.cpp"/>
+            <FILE id="xzQyB0" name="jazz.h" compile="0" resource="0" file="songbird/libraries/composition/styles/jazz.h"/>
+            <FILE id="MicJrv" name="techno.cpp" compile="1" resource="0" file="songbird/libraries/composition/styles/techno.cpp"/>
+            <FILE id="JLHJ2C" name="techno.h" compile="0" resource="0" file="songbird/libraries/composition/styles/techno.h"/>
+          </GROUP>
+          <GROUP id="{3703E2AE-D067-CAB9-E46F-7CD4E95DC55F}" name="themes">
+            <FILE id="sXEIER" name="emotion.cpp" compile="1" resource="0" file="songbird/libraries/composition/themes/emotion.cpp"/>
+            <FILE id="rZ1LNQ" name="emotion.h" compile="0" resource="0" file="songbird/libraries/composition/themes/emotion.h"/>
+            <FILE id="QfR0O2" name="motif.cpp" compile="1" resource="0" file="songbird/libraries/composition/themes/motif.cpp"/>
+            <FILE id="XX8HlZ" name="motif.h" compile="0" resource="0" file="songbird/libraries/composition/themes/motif.h"/>
+            <FILE id="iq4tKW" name="tension.cpp" compile="1" resource="0" file="songbird/libraries/composition/themes/tension.cpp"/>
+            <FILE id="hmP80v" name="tension.h" compile="0" resource="0" file="songbird/libraries/composition/themes/tension.h"/>
+          </GROUP>
+          <FILE id="nvRUSz" name="composer.cpp" compile="1" resource="0" file="songbird/libraries/composition/composer.cpp"/>
+          <FILE id="Kwktgs" name="composer.h" compile="0" resource="0" file="songbird/libraries/composition/composer.h"/>
+        </GROUP>
+        <GROUP id="{98EA0380-FFF6-2807-E77A-93070CD70B63}" name="effects">
+          <GROUP id="{56689290-CD31-B0CE-435A-AC3DEE6F8838}" name="effects">
+            <FILE id="zHQc9I" name="ambiance.cpp" compile="1" resource="0" file="songbird/libraries/effects/effects/ambiance.cpp"/>
+            <FILE id="AtKmmC" name="ambiance.h" compile="0" resource="0" file="songbird/libraries/effects/effects/ambiance.h"/>
+            <FILE id="N4eUSU" name="chord_voicing.cpp" compile="1" resource="0"
+                  file="songbird/libraries/effects/effects/chord_voicing.cpp"/>
+            <FILE id="GPlDje" name="chord_voicing.h" compile="0" resource="0" file="songbird/libraries/effects/effects/chord_voicing.h"/>
+            <FILE id="xOBnle" name="counterpoint.cpp" compile="1" resource="0"
+                  file="songbird/libraries/effects/effects/counterpoint.cpp"/>
+            <FILE id="VjqBtK" name="counterpoint.h" compile="0" resource="0" file="songbird/libraries/effects/effects/counterpoint.h"/>
+            <FILE id="FX38PY" name="note_cloud.cpp" compile="1" resource="0" file="songbird/libraries/effects/effects/note_cloud.cpp"/>
+            <FILE id="cxstPX" name="note_cloud.h" compile="0" resource="0" file="songbird/libraries/effects/effects/note_cloud.h"/>
+          </GROUP>
+          <FILE id="OkEIVj" name="effect.cpp" compile="1" resource="0" file="songbird/libraries/effects/effect.cpp"/>
+          <FILE id="aZt1mY" name="effect.h" compile="0" resource="0" file="songbird/libraries/effects/effect.h"/>
+          <FILE id="d1RKqu" name="midi_effects.cpp" compile="1" resource="0"
+                file="songbird/libraries/effects/midi_effects.cpp"/>
+          <FILE id="tcqMn0" name="midi_effects.h" compile="0" resource="0" file="songbird/libraries/effects/midi_effects.h"/>
+        </GROUP>
+        <GROUP id="{2243C962-AD21-B7C9-B3CE-55A96A0300EA}" name="interface">
+          <GROUP id="{2202B75E-08BD-1419-B47A-BB0886F6F6E2}" name="midifile">
+            <FILE id="MR3ZvT" name="Binasc.cpp" compile="1" resource="0" file="songbird/libraries/interface/midifile/Binasc.cpp"/>
+            <FILE id="MfqnfZ" name="Binasc.h" compile="0" resource="0" file="songbird/libraries/interface/midifile/Binasc.h"/>
+            <FILE id="eSAg04" name="MidiEvent.cpp" compile="1" resource="0" file="songbird/libraries/interface/midifile/MidiEvent.cpp"/>
+            <FILE id="fChxuv" name="MidiEvent.h" compile="0" resource="0" file="songbird/libraries/interface/midifile/MidiEvent.h"/>
+            <FILE id="iNU9ro" name="MidiEventList.cpp" compile="1" resource="0"
+                  file="songbird/libraries/interface/midifile/MidiEventList.cpp"/>
+            <FILE id="xhWlex" name="MidiEventList.h" compile="0" resource="0" file="songbird/libraries/interface/midifile/MidiEventList.h"/>
+            <FILE id="Qhoy7f" name="MidiFile.cpp" compile="1" resource="0" file="songbird/libraries/interface/midifile/MidiFile.cpp"/>
+            <FILE id="GrV4Oy" name="MidiFile.h" compile="0" resource="0" file="songbird/libraries/interface/midifile/MidiFile.h"/>
+            <FILE id="L1yBfU" name="MidiMessage.cpp" compile="1" resource="0" file="songbird/libraries/interface/midifile/MidiMessage.cpp"/>
+            <FILE id="pSqPD4" name="MidiMessage.h" compile="0" resource="0" file="songbird/libraries/interface/midifile/MidiMessage.h"/>
+            <FILE id="kzi10y" name="Options.cpp" compile="1" resource="0" file="songbird/libraries/interface/midifile/Options.cpp"/>
+            <FILE id="F9gFv8" name="Options.h" compile="0" resource="0" file="songbird/libraries/interface/midifile/Options.h"/>
+          </GROUP>
+          <GROUP id="{7EC76391-561B-654A-EAAF-13A5B2F4CB11}" name="rtmidi">
+            <FILE id="jYjJKO" name="RtMidi.cpp" compile="1" resource="0" file="songbird/libraries/interface/rtmidi/RtMidi.cpp"/>
+            <FILE id="JhYpWy" name="RtMidi.h" compile="0" resource="0" file="songbird/libraries/interface/rtmidi/RtMidi.h"/>
+          </GROUP>
+          <FILE id="Ikj1Vo" name="buttons.cpp" compile="1" resource="0" file="songbird/libraries/interface/buttons.cpp"/>
+          <FILE id="vxDTlz" name="buttons.h" compile="0" resource="0" file="songbird/libraries/interface/buttons.h"/>
+          <FILE id="SlYU4n" name="console.h" compile="0" resource="0" file="songbird/libraries/interface/console.h"/>
+          <FILE id="oxUInO" name="display.cpp" compile="1" resource="0" file="songbird/libraries/interface/display.cpp"/>
+          <FILE id="GbcuIp" name="display.h" compile="0" resource="0" file="songbird/libraries/interface/display.h"/>
+          <FILE id="M9Ap5a" name="midi_io.cpp" compile="1" resource="0" file="songbird/libraries/interface/midi_io.cpp"/>
+          <FILE id="c8RA75" name="midi_io.h" compile="0" resource="0" file="songbird/libraries/interface/midi_io.h"/>
+          <FILE id="iuZxXQ" name="program.cpp" compile="1" resource="0" file="songbird/libraries/interface/program.cpp"/>
+          <FILE id="F6nMdR" name="program.h" compile="0" resource="0" file="songbird/libraries/interface/program.h"/>
+        </GROUP>
+        <GROUP id="{3B544E0F-914F-95E6-B0D0-90200B339BAE}" name="sequencing">
+          <GROUP id="{F5ED521E-1ED8-3E8B-DEA1-302EDFA8FB4B}" name="sequencers">
+            <FILE id="GlTFx3" name="bass.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/sequencers/bass.cpp"/>
+            <FILE id="SsNO9w" name="bass.h" compile="0" resource="0" file="songbird/libraries/sequencing/sequencers/bass.h"/>
+            <FILE id="E07IWl" name="chord_sequencer.cpp" compile="1" resource="0"
+                  file="songbird/libraries/sequencing/sequencers/chord_sequencer.cpp"/>
+            <FILE id="aIXiyK" name="chord_sequencer.h" compile="0" resource="0"
+                  file="songbird/libraries/sequencing/sequencers/chord_sequencer.h"/>
+            <FILE id="kFbKK9" name="file_sequencer.cpp" compile="1" resource="0"
+                  file="songbird/libraries/sequencing/sequencers/file_sequencer.cpp"/>
+            <FILE id="qh0zjI" name="file_sequencer.h" compile="0" resource="0"
+                  file="songbird/libraries/sequencing/sequencers/file_sequencer.h"/>
+            <FILE id="m6z5gz" name="groove.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/sequencers/groove.cpp"/>
+            <FILE id="MgJfBR" name="groove.h" compile="0" resource="0" file="songbird/libraries/sequencing/sequencers/groove.h"/>
+            <FILE id="ZRdLEy" name="harmony.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/sequencers/harmony.cpp"/>
+            <FILE id="IWptWF" name="harmony.h" compile="0" resource="0" file="songbird/libraries/sequencing/sequencers/harmony.h"/>
+            <FILE id="W1QCjD" name="melody.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/sequencers/melody.cpp"/>
+            <FILE id="tS5G93" name="melody.h" compile="0" resource="0" file="songbird/libraries/sequencing/sequencers/melody.h"/>
+          </GROUP>
+          <GROUP id="{C28D6DBE-3AB0-043F-1203-BAD5B1787707}" name="utils">
+            <FILE id="hqVMvY" name="arpeggiator.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/utils/arpeggiator.cpp"/>
+            <FILE id="Nl3qLc" name="arpeggiator.h" compile="0" resource="0" file="songbird/libraries/sequencing/utils/arpeggiator.h"/>
+            <FILE id="Dt2eIj" name="articulation.cpp" compile="1" resource="0"
+                  file="songbird/libraries/sequencing/utils/articulation.cpp"/>
+            <FILE id="MDikHo" name="articulation.h" compile="0" resource="0" file="songbird/libraries/sequencing/utils/articulation.h"/>
+            <FILE id="HzW7xm" name="drum_roll.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/utils/drum_roll.cpp"/>
+            <FILE id="S7iR2s" name="drum_roll.h" compile="0" resource="0" file="songbird/libraries/sequencing/utils/drum_roll.h"/>
+            <FILE id="NhwqX8" name="modulator.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/utils/modulator.cpp"/>
+            <FILE id="i5AJUb" name="modulator.h" compile="0" resource="0" file="songbird/libraries/sequencing/utils/modulator.h"/>
+            <FILE id="RKGZqC" name="patterns.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/utils/patterns.cpp"/>
+            <FILE id="Eifr2q" name="patterns.h" compile="0" resource="0" file="songbird/libraries/sequencing/utils/patterns.h"/>
+            <FILE id="p6ykeb" name="swing.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/utils/swing.cpp"/>
+            <FILE id="srBhlc" name="swing.h" compile="0" resource="0" file="songbird/libraries/sequencing/utils/swing.h"/>
+            <FILE id="BZYkNR" name="time_constants.h" compile="0" resource="0"
+                  file="songbird/libraries/sequencing/utils/time_constants.h"/>
+          </GROUP>
+          <FILE id="mt1qup" name="clock.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/clock.cpp"/>
+          <FILE id="OjeaFU" name="clock.h" compile="0" resource="0" file="songbird/libraries/sequencing/clock.h"/>
+          <FILE id="Mf1SLr" name="note.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/note.cpp"/>
+          <FILE id="FV1NuC" name="note.h" compile="0" resource="0" file="songbird/libraries/sequencing/note.h"/>
+          <FILE id="NUzRWt" name="sequencer.cpp" compile="1" resource="0" file="songbird/libraries/sequencing/sequencer.cpp"/>
+          <FILE id="X7zpkU" name="sequencer.h" compile="0" resource="0" file="songbird/libraries/sequencing/sequencer.h"/>
+        </GROUP>
+        <GROUP id="{2CBCD250-024E-EBFF-0DC1-2659E42CF386}" name="theory">
+          <FILE id="cuqp33" name="chord.cpp" compile="1" resource="0" file="songbird/libraries/theory/chord.cpp"/>
+          <FILE id="xgK2Z8" name="chord.h" compile="0" resource="0" file="songbird/libraries/theory/chord.h"/>
+          <FILE id="youMPS" name="circle_of_fifths.cpp" compile="1" resource="0"
+                file="songbird/libraries/theory/circle_of_fifths.cpp"/>
+          <FILE id="rG858U" name="circle_of_fifths.h" compile="0" resource="0"
+                file="songbird/libraries/theory/circle_of_fifths.h"/>
+          <FILE id="MS3Mhu" name="progression.cpp" compile="1" resource="0" file="songbird/libraries/theory/progression.cpp"/>
+          <FILE id="hnxI3x" name="progression.h" compile="0" resource="0" file="songbird/libraries/theory/progression.h"/>
+          <FILE id="bA2mrR" name="repetition.cpp" compile="1" resource="0" file="songbird/libraries/theory/repetition.cpp"/>
+          <FILE id="bVh2OI" name="repetition.h" compile="0" resource="0" file="songbird/libraries/theory/repetition.h"/>
+          <FILE id="V1BPwZ" name="rythym.cpp" compile="1" resource="0" file="songbird/libraries/theory/rythym.cpp"/>
+          <FILE id="CZus0G" name="rythym.h" compile="0" resource="0" file="songbird/libraries/theory/rythym.h"/>
+          <FILE id="zECVAD" name="scale.cpp" compile="1" resource="0" file="songbird/libraries/theory/scale.cpp"/>
+          <FILE id="BlqBHt" name="scale.h" compile="0" resource="0" file="songbird/libraries/theory/scale.h"/>
+          <FILE id="mVn7X9" name="song.cpp" compile="1" resource="0" file="songbird/libraries/theory/song.cpp"/>
+          <FILE id="eyr7Jk" name="song.h" compile="0" resource="0" file="songbird/libraries/theory/song.h"/>
+          <FILE id="gsvQjX" name="tempo.cpp" compile="1" resource="0" file="songbird/libraries/theory/tempo.cpp"/>
+          <FILE id="xcoNAM" name="tempo.h" compile="0" resource="0" file="songbird/libraries/theory/tempo.h"/>
+        </GROUP>
+        <GROUP id="{B098682D-6358-B5BD-66FF-AF8D2F27EB29}" name="voices">
+          <GROUP id="{72C5E4CC-1FD3-315E-9415-75E6358185D0}" name="drum_machines">
+            <FILE id="LugA3Y" name="ableton_drum_rack.cpp" compile="1" resource="0"
+                  file="songbird/libraries/voices/drum_machines/ableton_drum_rack.cpp"/>
+            <FILE id="YKU8fg" name="ableton_drum_rack.h" compile="0" resource="0"
+                  file="songbird/libraries/voices/drum_machines/ableton_drum_rack.h"/>
+            <FILE id="LeSByo" name="nord_drum.cpp" compile="1" resource="0" file="songbird/libraries/voices/drum_machines/nord_drum.cpp"/>
+            <FILE id="wB3Ytw" name="nord_drum.h" compile="0" resource="0" file="songbird/libraries/voices/drum_machines/nord_drum.h"/>
+            <FILE id="AaAsLN" name="orchestral_rack.cpp" compile="1" resource="0"
+                  file="songbird/libraries/voices/drum_machines/orchestral_rack.cpp"/>
+            <FILE id="urFssN" name="orchestral_rack.h" compile="0" resource="0"
+                  file="songbird/libraries/voices/drum_machines/orchestral_rack.h"/>
+            <FILE id="pofYSx" name="tr8s.cpp" compile="1" resource="0" file="songbird/libraries/voices/drum_machines/tr8s.cpp"/>
+            <FILE id="EcTK87" name="tr8s.h" compile="0" resource="0" file="songbird/libraries/voices/drum_machines/tr8s.h"/>
+          </GROUP>
+          <GROUP id="{35CB54A1-DBC2-3883-9EC3-0AAD85560CD7}" name="midi">
+            <FILE id="NJUX11" name="midi_cc.cpp" compile="1" resource="0" file="songbird/libraries/voices/midi/midi_cc.cpp"/>
+            <FILE id="R3fS8V" name="midi_cc.h" compile="0" resource="0" file="songbird/libraries/voices/midi/midi_cc.h"/>
+            <FILE id="zcsE8D" name="midi_inst.cpp" compile="1" resource="0" file="songbird/libraries/voices/midi/midi_inst.cpp"/>
+            <FILE id="IXUJ34" name="midi_inst.h" compile="0" resource="0" file="songbird/libraries/voices/midi/midi_inst.h"/>
+            <FILE id="A5RdJd" name="midi_note.cpp" compile="1" resource="0" file="songbird/libraries/voices/midi/midi_note.cpp"/>
+            <FILE id="cP31wR" name="midi_note.h" compile="0" resource="0" file="songbird/libraries/voices/midi/midi_note.h"/>
+          </GROUP>
+          <GROUP id="{6A8A085E-8200-CC33-0660-3FAF6504E7E9}" name="samplers">
+            <FILE id="R54Qzm" name="ableton_simpler.cpp" compile="1" resource="0"
+                  file="songbird/libraries/voices/samplers/ableton_simpler.cpp"/>
+            <FILE id="dRUeBq" name="ableton_simpler.h" compile="0" resource="0"
+                  file="songbird/libraries/voices/samplers/ableton_simpler.h"/>
+            <FILE id="CoLSMQ" name="model_samples.cpp" compile="1" resource="0"
+                  file="songbird/libraries/voices/samplers/model_samples.cpp"/>
+            <FILE id="mGRWCF" name="model_samples.h" compile="0" resource="0" file="songbird/libraries/voices/samplers/model_samples.h"/>
+            <FILE id="QrMDRY" name="sampler.cpp" compile="1" resource="0" file="songbird/libraries/voices/samplers/sampler.cpp"/>
+            <FILE id="wLRAnM" name="sampler.h" compile="0" resource="0" file="songbird/libraries/voices/samplers/sampler.h"/>
+          </GROUP>
+          <GROUP id="{E392F0ED-A7AB-27E6-211A-748024285F12}" name="synths">
+            <FILE id="eqbhSG" name="ju06a.cpp" compile="1" resource="0" file="songbird/libraries/voices/synths/ju06a.cpp"/>
+            <FILE id="Thu3zw" name="ju06a.h" compile="0" resource="0" file="songbird/libraries/voices/synths/ju06a.h"/>
+            <FILE id="NdF4pU" name="matriarch.cpp" compile="1" resource="0" file="songbird/libraries/voices/synths/matriarch.cpp"/>
+            <FILE id="kNocz9" name="matriarch.h" compile="0" resource="0" file="songbird/libraries/voices/synths/matriarch.h"/>
+            <FILE id="psHBiX" name="mother32.cpp" compile="1" resource="0" file="songbird/libraries/voices/synths/mother32.cpp"/>
+            <FILE id="bGh6gv" name="mother32.h" compile="0" resource="0" file="songbird/libraries/voices/synths/mother32.h"/>
+            <FILE id="n8pkQJ" name="nord_wave.cpp" compile="1" resource="0" file="songbird/libraries/voices/synths/nord_wave.cpp"/>
+            <FILE id="DLLEj9" name="nord_wave.h" compile="0" resource="0" file="songbird/libraries/voices/synths/nord_wave.h"/>
+            <FILE id="Twnxvz" name="patch.cpp" compile="1" resource="0" file="songbird/libraries/voices/synths/patch.cpp"/>
+            <FILE id="fLqOPZ" name="patch.h" compile="0" resource="0" file="songbird/libraries/voices/synths/patch.h"/>
+            <FILE id="hxHc4J" name="sub37.cpp" compile="1" resource="0" file="songbird/libraries/voices/synths/sub37.cpp"/>
+            <FILE id="BPZSAn" name="sub37.h" compile="0" resource="0" file="songbird/libraries/voices/synths/sub37.h"/>
+            <FILE id="kc1ZGT" name="subharmonicon.cpp" compile="1" resource="0"
+                  file="songbird/libraries/voices/synths/subharmonicon.cpp"/>
+            <FILE id="AbhoQe" name="subharmonicon.h" compile="0" resource="0" file="songbird/libraries/voices/synths/subharmonicon.h"/>
+            <FILE id="uRBW4R" name="synthesizer.cpp" compile="1" resource="0" file="songbird/libraries/voices/synths/synthesizer.cpp"/>
+            <FILE id="ZuZBY8" name="synthesizer.h" compile="0" resource="0" file="songbird/libraries/voices/synths/synthesizer.h"/>
+          </GROUP>
+          <FILE id="VLh4rW" name="drum_machine.cpp" compile="1" resource="0"
+                file="songbird/libraries/voices/drum_machine.cpp"/>
+          <FILE id="k7OxUP" name="drum_machine.h" compile="0" resource="0" file="songbird/libraries/voices/drum_machine.h"/>
+          <FILE id="h1mr89" name="instrument.cpp" compile="1" resource="0" file="songbird/libraries/voices/instrument.cpp"/>
+          <FILE id="wRofzX" name="instrument.h" compile="0" resource="0" file="songbird/libraries/voices/instrument.h"/>
+        </GROUP>
+      </GROUP>
+    </GROUP>
     <GROUP id="{426E1DDF-6DDA-68F8-D2F5-7D4EAEEEA128}" name="Source">
       <FILE id="cisrAE" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
@@ -14,6 +246,47 @@
       <FILE id="c9xVOC" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="sNdE7Z" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{EF366017-0D20-53FB-9AC5-C9B690B05825}" name="compiled">
+      <GROUP id="{C777252B-4550-57B1-8D42-22C0A8DC1A81}" name="assets">
+        <FILE id="P0b1rH" name="BD 808 Mid Color A 05-pno7fNUy.wav" compile="0"
+              resource="0" file="compiled/assets/BD 808 Mid Color A 05-pno7fNUy.wav"
+              xcodeResource="1"/>
+        <FILE id="pMsvaP" name="CH A 808 Tape-LmXkcjVl.wav" compile="0" resource="0"
+              file="compiled/assets/CH A 808 Tape-LmXkcjVl.wav" xcodeResource="1"/>
+        <FILE id="LMcqWr" name="Clap 808 Color 03-YpiicTqE.wav" compile="0"
+              resource="0" file="compiled/assets/Clap 808 Color 03-YpiicTqE.wav"
+              xcodeResource="1"/>
+        <FILE id="dGEPpq" name="Cowbell 808 Color Short 03-8s3gaU-1.wav" compile="0"
+              resource="0" file="compiled/assets/Cowbell 808 Color Short 03-8s3gaU-1.wav"
+              xcodeResource="1"/>
+        <FILE id="MLQV3G" name="Cym A 808 Tape Decay C 01-xfbnl7fI.wav" compile="0"
+              resource="0" file="compiled/assets/Cym A 808 Tape Decay C 01-xfbnl7fI.wav"
+              xcodeResource="1"/>
+        <FILE id="W9FDTY" name="index-FrAjhvBs.css" compile="0" resource="0"
+              file="compiled/assets/index-FrAjhvBs.css" xcodeResource="1"/>
+        <FILE id="VEUivi" name="index-rDLYKOXy.js" compile="0" resource="0"
+              file="compiled/assets/index-rDLYKOXy.js" xcodeResource="1"/>
+        <FILE id="b9GRgn" name="OH 808 Tape Decay 02-LCKxGQrq.wav" compile="0"
+              resource="0" file="compiled/assets/OH 808 Tape Decay 02-LCKxGQrq.wav"
+              xcodeResource="1"/>
+        <FILE id="xTY0vo" name="Rim Shot A 808 Tape-Dyu1MR1N.wav" compile="0"
+              resource="0" file="compiled/assets/Rim Shot A 808 Tape-Dyu1MR1N.wav"
+              xcodeResource="1"/>
+        <FILE id="OzXpqz" name="SD B 808 Tape Tone C 06-nOcwZapV.wav" compile="0"
+              resource="0" file="compiled/assets/SD B 808 Tape Tone C 06-nOcwZapV.wav"
+              xcodeResource="1"/>
+        <FILE id="uYnbMz" name="Tom Hi A 808 08-HO-IszNz.wav" compile="0" resource="0"
+              file="compiled/assets/Tom Hi A 808 08-HO-IszNz.wav" xcodeResource="1"/>
+        <FILE id="rV8brV" name="Tom Low A 808 03-K5WLayV-.wav" compile="0"
+              resource="0" file="compiled/assets/Tom Low A 808 03-K5WLayV-.wav"
+              xcodeResource="1"/>
+        <FILE id="WhdZpY" name="Tom Mid A 808 08-CnT_XGWI.wav" compile="0"
+              resource="0" file="compiled/assets/Tom Mid A 808 08-CnT_XGWI.wav"
+              xcodeResource="1"/>
+      </GROUP>
+      <FILE id="q6WyMs" name="index.html" compile="0" resource="0" file="compiled/index.html"
+            xcodeResource="1"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
