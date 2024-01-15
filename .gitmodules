@@ -1,0 +1,3 @@
+[submodule "songbird-juce/songbird"]
+	path = songbird-juce/songbird
+	url = git@github.com:desaiashu/songbird-chirp.git
