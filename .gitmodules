@@ -1,3 +1,6 @@
 [submodule "songbird"]
 	path = songbird
 	url = git@github.com:desaiashu/songbird-chirp.git
+[submodule "modules/juce_web_ui"]
+	path = modules/juce_web_ui
+	url = git@github.com:tomduncalf/tomduncalf_juce_web_ui.git
